@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Althea Diagnostic Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <button id="theme-toggle" class="theme-toggle-button" aria-label="Toggle color theme">
+      <span class="sun-icon">☀️</span>
+      <span class="moon-icon">🌙</span>
+  </button>
+
+  <nav class="navbar">
+    <button class="hamburger" id="hamburger-button" aria-label="Toggle menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+    </button>
+    <div class="nav-menu-container">
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="simulations.html">Simulator</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <h1>Althea Diagnostic Simulator</h1>
+    <p class="subtitle">An exploration of rule-based expert systems, inspired by pioneers like MYCIN, to help you understand potential health conditions.</p>
+    <div class="hero-action">
+      <a href="simulations.html" class="action-button">Launch Simulator</a>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="content-card">
+        <h2>Welcome</h2>
+        <p>This website provides a simplified, interactive demonstration of a medical diagnostic expert system. Expert systems were an early form of artificial intelligence that used a knowledge base and a set of rules to make decisions, much like a human expert. Explore the simulator to see how symptoms can be mapped to potential conditions based on a curated dataset.</p>
+        <p><strong>Disclaimer:</strong> This tool is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Althea Diagnostic Simulator. All Rights Reserved.</p>
+    <p>This tool is for educational purposes only.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

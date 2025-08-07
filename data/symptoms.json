@@ -1,0 +1,147 @@
+[
+    {
+        "system": "Cardiovascular System",
+        "symptoms": [
+            { "key": "chest_pain", "label": "Chest Pain", "question": "What does the pain feel like?", "subOptions": ["Sharp and stabbing", "Dull ache or pressure", "Crushing or squeezing", "Radiating to arm, jaw, or back"] },
+            { "key": "fast_heart_rate", "label": "Palpitations / Fast Heart Rate", "question": "How would you describe the sensation?", "subOptions": ["Fast and regular (racing)", "Irregular or skipping beats", "Pounding or fluttering"] },
+            { "key": "shortness_of_breath", "label": "Shortness of Breath", "question": "When does this occur?", "subOptions": ["Only during exertion", "Even when at rest", "When lying flat (Orthopnea)"] },
+            { "key": "swelling", "label": "Swelling (Edema)", "question": "Where is the swelling most noticeable?", "subOptions": ["In the feet and ankles", "In the abdomen", "Generalized (all over)"] },
+            { "key": "dizziness", "label": "Dizziness / Fainting", "question": "What best describes your dizziness?", "subOptions": ["Lightheadedness", "A feeling of spinning (Vertigo)", "Actual fainting (Syncope)"] }
+        ]
+    },
+    {
+        "system": "Respiratory System",
+        "symptoms": [
+            { "key": "cough", "label": "Cough", "question": "What type of cough is it?", "subOptions": ["Dry and persistent", "Productive with phlegm", "A harsh, barking cough", "Worse at night"] },
+            { "key": "phlegm", "label": "Phlegm / Sputum", "question": "What is the color of the phlegm?", "subOptions": ["Clear or white", "Yellow or green", "Pink or frothy", "Rusty or blood-streaked"] },
+            { "key": "wheezing", "label": "Wheezing", "question": "When do you notice the wheezing?", "subOptions": ["When breathing out", "When breathing in", "Constantly"] },
+            { "key": "chest_tightness", "label": "Chest Tightness" },
+            { "key": "gasping_for_air", "label": "Gasping for Air" },
+            { "key": "mucoid_sputum", "label": "Mucoid Sputum" },
+            { "key": "rusty_sputum", "label": "Rusty Sputum" }
+        ]
+    },
+    {
+        "system": "Gastrointestinal System",
+        "symptoms": [
+            { "key": "abdominal_pain", "label": "Abdominal Pain", "question": "How would you describe the pain?", "subOptions": ["Generalized cramping", "Burning sensation in upper abdomen", "Sharp pain in lower right abdomen", "Colicky (comes in waves)"] },
+            { "key": "nausea", "label": "Nausea", "question": "Is the nausea accompanied by vomiting?", "subOptions": ["Nausea with vomiting", "Nausea without vomiting"] },
+            { "key": "vomiting", "label": "Vomiting" },
+            { "key": "diarrhoea", "label": "Diarrhea", "question": "What is the nature of the diarrhea?", "subOptions": ["Watery", "With mucus or pus", "Bloody", "Greasy or foul-smelling"] },
+            { "key": "constipation", "label": "Constipation" },
+            { "key": "loss_of_appetite", "label": "Loss of Appetite" },
+            { "key": "yellowish_skin", "label": "Yellow Skin / Eyes (Jaundice)" },
+            { "key": "bloating", "label": "Bloating or Gas" },
+            { "key": "indigestion", "label": "Indigestion / Heartburn" },
+            { "key": "acidity", "label": "Acidity" },
+            { "key": "passage_of_gases", "label": "Passage of Gases" },
+            { "key": "stomach_cramps", "label": "Stomach Cramps" }
+        ]
+    },
+    {
+        "system": "Nervous System",
+        "symptoms": [
+            { "key": "headache", "label": "Headache", "question": "What best describes the headache?", "subOptions": ["Throbbing, one-sided pain", "Dull, band-like pressure", "Sudden, severe 'thunderclap' headache", "Associated with a stiff neck"] },
+            { "key": "seizures", "label": "Seizures" },
+            { "key": "numbness_tingling", "label": "Numbness or Tingling", "question": "Where is the sensation located?", "subOptions": ["In hands and feet", "On one side of the body", "Around the mouth"] },
+            { "key": "muscle_weakness", "label": "Muscle Weakness", "question": "How did the weakness start?", "subOptions": ["Sudden onset on one side", "Gradual and symmetrical"] },
+            { "key": "tremor", "label": "Tremors", "question": "When are the tremors most noticeable?", "subOptions": ["When hands are at rest", "When trying to perform an action"] },
+            { "key": "loss_of_balance", "label": "Loss of Balance / Coordination" },
+            { "key": "lack_of_concentration", "label": "Lack of Concentration" },
+            { "key": "blurred_and_distorted_vision", "label": "Blurred and Distorted Vision" },
+            { "key": "sensitivity_to_sound", "label": "Sensitivity to Sound" },
+            { "key": "nerve_pain", "label": "Nerve Pain" },
+            { "key": "depression", "label": "Depression" },
+            { "key": "morning_headache", "label": "Morning Headache" },
+            { "key": "irritability", "label": "Irritability" }
+        ]
+    },
+    {
+        "system": "Musculoskeletal System",
+        "symptoms": [
+            { "key": "joint_pain", "label": "Joint Pain", "question": "Which joints are affected?", "subOptions": ["A single joint (e.g., big toe)", "Multiple joints, symmetrically", "Large weight-bearing joints (knees, hips)"] },
+            { "key": "joint_swelling", "label": "Joint Swelling", "question": "What is the nature of the swelling?", "subOptions": ["Warm and red", "Stiff, especially in the morning", "Bony enlargements"] },
+            { "key": "back_pain", "label": "Back Pain", "question": "Does the pain radiate?", "subOptions": ["Pain shoots down one leg", "Localized to the lower back"] },
+            { "key": "muscle_pain", "label": "Muscle Aches or Pain" },
+            { "key": "morning_stiffness", "label": "Morning Stiffness" },
+            { "key": "muscle_tension", "label": "Muscle Tension" }
+        ]
+    },
+    {
+        "system": "Dermatological (Skin)",
+        "symptoms": [
+            { "key": "itching", "label": "Itching (Pruritus)", "question": "Is the itching widespread or localized?", "subOptions": ["Localized to a specific rash", "Widespread, all over the body", "Intensely worse at night"] },
+            { "key": "skin_rash", "label": "Skin Rash", "question": "What does the rash look like?", "subOptions": ["Red, blotchy patches", "Dry, flaky, or scaly patches", "Vesicular (fluid-filled blisters)", "Pimple-like bumps"] },
+            { "key": "blisters", "label": "Blisters or Sores" },
+            { "key": "puffy_face", "label": "Puffy Face" },
+            { "key": "nodal_skin_eruptions", "label": "Nodal Skin Eruptions" },
+            { "key": "dischromic_patches", "label": "Dischromic Patches" },
+            { "key": "burning_sensation", "label": "Burning Sensation" },
+            { "key": "pallor", "label": "Pallor (Pale Skin)" },
+            { "key": "dry_skin", "label": "Dry Skin" },
+            { "key": "thickened_skin", "label": "Thickened Skin" },
+            { "key": "oozing_and_crusting", "label": "Oozing and Crusting" }
+        ]
+    },
+    {
+        "system": "ENT & Eye",
+        "symptoms": [
+            { "key": "ear_pain", "label": "Ear Pain" },
+            { "key": "hearing_loss", "label": "Hearing Loss" },
+            { "key": "throat_irritation", "label": "Sore Throat", "question": "How does the throat look?", "subOptions": ["Generally red and inflamed", "White spots on tonsils"] },
+            { "key": "swelled_lymph_nodes", "label": "Swollen Glands in Neck" },
+            { "key": "runny_nose", "label": "Runny or Stuffy Nose" },
+            { "key": "sinus_pressure", "label": "Sinus Pressure / Facial Pain" },
+            { "key": "continuous_sneezing", "label": "Continuous Sneezing" },
+            { "key": "redness_of_eyes", "label": "Redness of Eyes" },
+            { "key": "watering_from_eyes", "label": "Watering or Discharge from Eyes" },
+            { "key": "sensitivity_to_light", "label": "Sensitivity to Light" },
+            { "key": "ulcers_on_tongue", "label": "Ulcers on Tongue" },
+            { "key": "pain_behind_the_eyes", "label": "Pain Behind the Eyes" },
+            { "key": "eye_itching", "label": "Eye Itching" },
+            { "key": "loss_of_smell", "label": "Loss of Smell" },
+            { "key": "tinnitus", "label": "Tinnitus (Ringing in Ears)" },
+            { "key": "dry_mouth", "label": "Dry Mouth" },
+            { "key": "congestion", "label": "Congestion" },
+            { "key": "sunken_eyes", "label": "Sunken Eyes" }
+        ]
+    },
+    {
+        "system": "General / Constitutional",
+        "symptoms": [
+            { "key": "high_fever", "label": "Fever" },
+            { "key": "fatigue", "label": "Fatigue / Lack of Energy" },
+            { "key": "unexplained_weight_loss", "label": "Unexplained Weight Loss" },
+            { "key": "chills", "label": "Chills or Shivering" },
+            { "key": "cold_intolerance", "label": "Intolerance to Cold" },
+            { "key": "hoarseness", "label": "Hoarseness" },
+            { "key": "dehydration", "label": "Dehydration" },
+            { "key": "family_history", "label": "Family History" },
+            { "key": "internal_bleeding", "label": "Internal Bleeding" },
+            { "key": "sweating", "label": "Sweating" },
+            { "key": "malaise", "label": "Malaise" },
+            { "key": "pelvic_pain", "label": "Pelvic Pain" },
+            { "key": "flank_pain", "label": "Flank Pain" },
+            { "key": "trouble_sleeping", "label": "Trouble Sleeping" },
+            { "key": "insomnia", "label": "Insomnia" },
+            { "key": "restlessness", "label": "Restlessness" }
+        ]
+    },
+    {
+        "system": "Endocrine & Metabolic",
+        "symptoms": [
+            { "key": "increased_thirst", "label": "Increased Thirst" },
+            { "key": "increased_urination", "label": "Increased Urination" },
+            { "key": "slow_healing_sores", "label": "Slow-Healing Sores" },
+            { "key": "frequent_infections", "label": "Frequent Infections" },
+            { "key": "irregular_menstrual_periods", "label": "Irregular Menstrual Periods" },
+            { "key": "burning_micturition", "label": "Burning Micturition" },
+            { "key": "bladder_discomfort", "label": "Bladder Discomfort" },
+            { "key": "foul_smell_of_urine", "label": "Foul Smell of Urine" },
+            { "key": "continuous_feel_of_urine", "label": "Continuous Feel of Urine" },
+            { "key": "cloudy_urine", "label": "Cloudy Urine" },
+            { "key": "hematuria", "label": "Hematuria (Blood in Urine)" },
+            { "key": "dark_urine", "label": "Dark Urine" }
+        ]
+    }
+]

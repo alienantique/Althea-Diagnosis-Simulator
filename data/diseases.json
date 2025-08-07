@@ -1,0 +1,1100 @@
+[
+  {
+    "disease": "Fungal infection",
+    "symptoms": ["itching", "skin_rash", "nodal_skin_eruptions", "dischromic_patches"],
+    "symptom_weights": { "itching": 5, "skin_rash": 4, "nodal_skin_eruptions": 3, "dischromic_patches": 3 },
+    "suggestions": {
+      "description": "Fungal infections are common skin conditions caused by different types of fungi, often thriving in warm, moist areas.",
+      "remedies": ["Keep the affected area clean and dry.", "Wear loose, breathable clothing made of cotton.", "Avoid sharing towels or clothing."],
+      "whenToSeeDoctor": "If the infection does not improve after two weeks of self-treatment, covers a large area, or if you have a weakened immune system.",
+      "common_otc": ["Antifungal creams (e.g., containing Clotrimazole or Miconazole)", "Antifungal powders"],
+      "medication_guidance": "Apply a thin layer of cream to the affected area 2-3 times a day. Continue for at least two weeks, even if symptoms disappear earlier, but confirm duration with a pharmacist.",
+      "foodToAvoid": "High-sugar foods and refined carbohydrates which can promote yeast growth. Excessive dairy products."
+    }
+  },
+  {
+    "disease": "Allergy",
+    "symptoms": ["continuous_sneezing", "shivering", "chills", "watering_from_eyes", "runny_nose", "congestion"],
+    "symptom_weights": { "continuous_sneezing": 5, "watering_from_eyes": 4, "runny_nose": 4, "congestion": 3, "shivering": 2, "chills": 1 },
+    "suggestions": {
+      "description": "An allergic reaction occurs when your immune system reacts to a foreign substance, such as pollen, bee venom, or pet dander.",
+      "remedies": ["Identify and avoid known triggers.", "Use a saline nasal spray to clear allergens.", "Keep windows closed during high pollen seasons."],
+      "whenToSeeDoctor": "For severe reactions (anaphylaxis), if symptoms don't improve with OTC medication, or for allergy testing.",
+      "common_otc": ["Antihistamine tablets (e.g., containing Cetirizine, Levocetirizine, or Fexofenadine)", "Decongestant nasal sprays"],
+      "medication_guidance": "A single daily tablet is common for antihistamines, but check the product label. Some cause drowsiness. Do not use decongestant sprays for more than 3-5 days.",
+      "foodToAvoid": "Common allergens like peanuts, shellfish, milk, and eggs if you are sensitive. Processed foods with artificial additives."
+    }
+  },
+  {
+    "disease": "GERD (Gastroesophageal Reflux Disease)",
+    "symptoms": ["stomach_pain", "acidity", "ulcers_on_tongue", "vomiting", "cough", "chest_pain", "indigestion", "burning_sensation"],
+    "symptom_weights": { "indigestion": 5, "burning_sensation": 5, "acidity": 4, "chest_pain": 3, "stomach_pain": 3, "cough": 2, "vomiting": 2, "ulcers_on_tongue": 1 },
+    "suggestions": {
+        "description": "GERD is a digestive disorder that affects the ring of muscle between your esophagus and your stomach, causing stomach acid to frequently flow back into the tube connecting your mouth and stomach (esophagus).",
+        "remedies": ["Avoid large meals, especially before bedtime.", "Elevate the head of your bed.", "Avoid trigger foods like spicy, fatty, or acidic foods."],
+        "whenToSeeDoctor": "If you experience severe chest pain, difficulty swallowing, or if OTC medications aren't providing relief.",
+        "common_otc": ["Antacid liquids or chewable tablets", "H2 blockers (e.g., Famotidine)"],
+        "medication_guidance": "Antacids provide fast, short-term relief and can be taken after meals. H2 blockers provide longer relief but take more time to work.",
+        "foodToAvoid": "Spicy and oily foods, citrus fruits, tomatoes, onions, garlic, chocolate, coffee, and carbonated drinks."
+    }
+  },
+  {
+    "disease": "Peptic ulcer disease",
+    "symptoms": ["vomiting", "indigestion", "loss_of_appetite", "abdominal_pain", "passage_of_gases", "internal_bleeding"],
+    "symptom_weights": { "abdominal_pain": 5, "indigestion": 4, "loss_of_appetite": 3, "vomiting": 3, "internal_bleeding": 5, "passage_of_gases": 2 },
+     "suggestions": {
+        "description": "Peptic ulcers are open sores that develop on the inside lining of your stomach and the upper portion of your small intestine.",
+        "remedies": ["Avoid smoking and alcohol.", "Manage stress.", "Avoid spicy and acidic foods."],
+        "whenToSeeDoctor": "If you have symptoms of an ulcer, especially if you vomit blood, have black or tarry stools, or have severe, sharp stomach pain.",
+        "common_otc": ["Antacid syrups or tablets"],
+        "medication_guidance": "Antacids can provide temporary relief from ulcer pain. However, peptic ulcers require a doctor's diagnosis and prescription treatment (like PPIs or antibiotics).",
+        "foodToAvoid": "Spicy foods, caffeine, alcohol, and acidic foods like citrus fruits and tomatoes."
+    }
+  },
+  {
+    "disease": "Gastroenteritis",
+    "symptoms": ["vomiting", "sunken_eyes", "dehydration", "diarrhoea", "nausea", "stomach_cramps"],
+    "symptom_weights": { "vomiting": 5, "diarrhoea": 5, "dehydration": 4, "nausea": 3, "stomach_cramps": 3, "sunken_eyes": 2 },
+    "suggestions": {
+        "description": "Gastroenteritis is an inflammation of the stomach and intestines. The main goal is to prevent dehydration.",
+        "remedies": ["Hydration is critical: Sip small amounts of water or an oral rehydration solution (ORS).", "BRAT Diet: Start with bland foods like Bananas, Rice, Applesauce, and Toast."],
+        "whenToSeeDoctor": "If you can't keep liquids down for 24 hours, are vomiting blood, have severe dehydration, or a high fever.",
+        "common_otc": ["Oral Rehydration Solution (ORS) packets", "Probiotic sachets or capsules"],
+        "medication_guidance": "ORS should be mixed with clean, cool water as per packet instructions and sipped throughout the day. Probiotics may help restore gut balance.",
+        "foodToAvoid": "Dairy products, fatty, spicy, or heavy foods. Stick to the BRAT diet (Bananas, Rice, Applesauce, Toast)."
+    }
+  },
+  {
+    "disease": "Bronchial Asthma",
+    "symptoms": ["fatigue", "cough", "high_fever", "breathlessness", "family_history", "mucoid_sputum", "wheezing"],
+    "symptom_weights": { "breathlessness": 5, "wheezing": 5, "cough": 4, "mucoid_sputum": 3, "high_fever": 2, "fatigue": 2, "family_history": 1 },
+    "suggestions": {
+        "description": "Asthma is a condition in which your airways narrow and swell and may produce extra mucus. This can make breathing difficult and trigger coughing, a whistling sound (wheezing) when you breathe out and shortness of breath.",
+        "remedies": ["Identify and avoid triggers (dust, pollen, smoke).", "Use a humidifier.", "Practice breathing exercises."],
+        "whenToSeeDoctor": "Asthma requires a doctor's diagnosis and management plan. Seek immediate help for severe attacks.",
+        "common_otc": ["None. This condition requires prescription inhalers."],
+        "medication_guidance": "All medications for asthma must be prescribed and managed by a doctor.",
+        "foodToAvoid": "Sulfites (in dried fruit, wine), cold foods, and any known allergens."
+    }
+  },
+  {
+    "disease": "Hypertension",
+    "symptoms": ["headache", "chest_pain", "dizziness", "loss_of_balance", "lack_of_concentration"],
+    "symptom_weights": { "chest_pain": 5, "headache": 4, "dizziness": 3, "loss_of_balance": 2, "lack_of_concentration": 2 },
+    "suggestions": {
+        "description": "Hypertension (high blood pressure) is a common condition in which the long-term force of the blood against your artery walls is high enough that it may eventually cause health problems, such as heart disease.",
+        "remedies": ["Reduce salt intake.", "Eat a balanced diet rich in fruits and vegetables.", "Exercise regularly.", "Limit alcohol and caffeine."],
+        "whenToSeeDoctor": "Regular blood pressure monitoring is key. Follow up with your doctor to manage your condition.",
+        "common_otc": ["None. This condition requires prescription medication."],
+        "medication_guidance": "All medications for hypertension must be prescribed and managed by a doctor.",
+        "foodToAvoid": "High-sodium foods like pickles, papad, and processed snacks. Limit red meat and sugary foods."
+    }
+  },
+  {
+    "disease": "Migraine",
+    "symptoms": ["acidity", "indigestion", "headache", "blurred_and_distorted_vision", "nausea", "loss_of_balance", "sensitivity_to_light", "sensitivity_to_sound"],
+    "symptom_weights": { "headache": 5, "sensitivity_to_light": 5, "sensitivity_to_sound": 5, "nausea": 4, "blurred_and_distorted_vision": 3, "loss_of_balance": 2, "acidity": 1, "indigestion": 1 },
+    "suggestions": {
+        "description": "A migraine is a severe headache that can be accompanied by other symptoms. Identifying and avoiding triggers is key.",
+        "remedies": ["Rest in a dark, quiet room.", "Apply a cold compress to your forehead or neck.", "Stay hydrated."],
+        "whenToSeeDoctor": "If headaches are severe, frequent, disabling, or accompanied by fever, stiff neck, or confusion.",
+        "common_otc": ["Pain relievers (e.g., Paracetamol, Ibuprofen, Naproxen)"],
+        "medication_guidance": "Take pain relievers at the first sign of a migraine. Some are best taken with food. Do not exceed the recommended daily dose on the label. Prescription medication may be needed for frequent or severe migraines.",
+        "foodToAvoid": "Common triggers include aged cheese, chocolate, caffeine, alcohol (especially red wine), and processed meats."
+    }
+  },
+  {
+    "disease": "Dengue",
+    "symptoms": ["skin_rash", "chills", "joint_pain", "vomiting", "fatigue", "high_fever", "headache", "nausea", "loss_of_appetite", "pain_behind_the_eyes", "muscle_pain"],
+    "symptom_weights": { "high_fever": 5, "joint_pain": 5, "muscle_pain": 5, "pain_behind_the_eyes": 4, "headache": 4, "skin_rash": 3, "vomiting": 3, "chills": 3, "fatigue": 2, "nausea": 2, "loss_of_appetite": 2 },
+    "suggestions": {
+        "description": "Dengue is a mosquito-borne viral infection. It can be severe, so medical supervision is very important.",
+        "remedies": ["Medical supervision is essential.", "Drink plenty of fluids (water, ORS, coconut water).", "Complete bed rest is advised."],
+        "whenToSeeDoctor": "Seek immediate medical help if you suspect Dengue, especially with warning signs like severe abdominal pain or bleeding.",
+        "common_otc": ["Only pain relievers containing Paracetamol"],
+        "medication_guidance": "Only Paracetamol should be used for fever. DO NOT take Aspirin or Ibuprofen, as they can increase the risk of bleeding. Follow the package dosage carefully.",
+        "foodToAvoid": "Oily and spicy foods. Focus on fluids like coconut water, pomegranate juice, and light, digestible foods."
+    }
+  },
+  {
+    "disease": "Pneumonia",
+    "symptoms": ["chills", "fatigue", "cough", "high_fever", "breathlessness", "sweating", "malaise", "phlegm", "chest_pain", "fast_heart_rate", "rusty_sputum"],
+    "symptom_weights": { "high_fever": 5, "breathlessness": 5, "cough": 4, "chest_pain": 4, "rusty_sputum": 4, "phlegm": 3, "chills": 3, "fatigue": 2, "fast_heart_rate": 2, "sweating": 1, "malaise": 1 },
+    "suggestions": {
+        "description": "Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus, causing cough with phlegm or pus, fever, chills, and difficulty breathing.",
+        "remedies": ["Medical treatment is necessary. Rest and fluid intake are supportive measures."],
+        "whenToSeeDoctor": "See a doctor if you suspect pneumonia. Seek immediate care for severe symptoms like high fever, confusion, or difficulty breathing.",
+        "common_otc": ["None. This condition requires prescription medication (e.g., antibiotics)."],
+        "medication_guidance": "All medications for pneumonia must be prescribed and managed by a doctor.",
+        "foodToAvoid": "Focus on a nutrient-rich diet to support recovery. Ensure high fluid intake."
+    }
+  },
+  {
+    "disease": "Urinary Tract Infection (UTI)",
+    "symptoms": ["burning_micturition", "bladder_discomfort", "foul_smell_of_urine", "continuous_feel_of_urine", "cloudy_urine", "pelvic_pain"],
+    "symptom_weights": { "burning_micturition": 5, "continuous_feel_of_urine": 5, "bladder_discomfort": 4, "cloudy_urine": 3, "foul_smell_of_urine": 3, "pelvic_pain": 2 },
+    "suggestions": {
+        "description": "A urinary tract infection (UTI) is an infection in any part of your urinary system — your kidneys, ureters, bladder and urethra.",
+        "remedies": ["Drink plenty of water to flush out bacteria.", "Avoid drinks that may irritate your bladder, like coffee and soft drinks.", "Apply a warm compress to your abdomen."],
+        "whenToSeeDoctor": "If you suspect you have a UTI, especially if you have a fever, back pain, or vomiting, as antibiotics are required.",
+        "common_otc": ["Urine alkalizer syrups or sachets", "Pain relievers (e.g., Paracetamol)"],
+        "medication_guidance": "Alkalizers can help relieve burning sensations but do not cure the infection. A doctor must prescribe antibiotics to treat the UTI itself.",
+        "foodToAvoid": "Caffeine, alcohol, spicy foods, and carbonated drinks which can irritate the bladder."
+    }
+  },
+  {
+    "disease": "Irritable Bowel Syndrome (IBS)",
+    "symptoms": ["abdominal_pain", "bloating", "diarrhoea", "constipation"],
+    "symptom_weights": { "abdominal_pain": 5, "bloating": 4, "diarrhoea": 3, "constipation": 3 },
+    "suggestions": {
+      "description": "IBS is a common disorder that affects the large intestine, causing symptoms like cramping, abdominal pain, bloating, gas, and diarrhea or constipation, or both.",
+      "remedies": ["Keep a food diary to identify triggers.", "Increase fiber intake gradually.", "Manage stress through yoga or meditation."],
+      "whenToSeeDoctor": "If you have severe symptoms, unintentional weight loss, rectal bleeding, or if symptoms are not controlled with lifestyle changes.",
+      "common_otc": ["Fiber supplements (e.g., Psyllium Husk)", "Probiotics"],
+      "medication_guidance": "Fiber supplements should be started at a low dose with plenty of water. Probiotics may help regulate gut flora. A doctor can prescribe other medications for cramps.",
+      "foodToAvoid": "High-gas foods like beans, cabbage, and carbonated drinks. High-FODMAP foods can be a trigger for many."
+    }
+  },
+  {
+    "disease": "Kidney Stones (Nephrolithiasis)",
+    "symptoms": ["flank_pain", "hematuria", "nausea", "vomiting", "increased_frequency", "burning_micturition"],
+    "symptom_weights": { "flank_pain": 5, "hematuria": 5, "burning_micturition": 4, "increased_frequency": 3, "nausea": 2, "vomiting": 2 },
+    "suggestions": {
+      "description": "Kidney stones are hard deposits made of minerals and salts that form inside your kidneys. They can cause severe pain when passing through the urinary tract.",
+      "remedies": ["Drink plenty of water (2-3 liters per day) to help flush the stone.", "Use a hot water bag on the flank or back for pain relief."],
+      "whenToSeeDoctor": "Immediately if you have unbearable pain, high fever and chills, or are unable to pass urine. Medical evaluation is always recommended.",
+      "common_otc": ["Pain relievers (e.g., Paracetamol or Ibuprofen)"],
+      "medication_guidance": "Pain relievers can manage discomfort, but it is critical to consult a doctor before taking any medication for this condition, especially if you have known kidney issues.",
+      "foodToAvoid": "Depends on the type of stone. Generally, limit high-oxalate foods (spinach, nuts, tea) and sodium. Avoid dehydration."
+    }
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "symptoms": ["joint_pain", "swelling", "morning_stiffness", "fatigue", "muscle_weakness"],
+    "symptom_weights": { "joint_pain": 5, "swelling": 5, "morning_stiffness": 5, "fatigue": 3, "muscle_weakness": 2 },
+    "suggestions": {
+      "description": "Rheumatoid Arthritis is a chronic inflammatory disorder that can affect more than just your joints. It's an autoimmune disease where the body's immune system attacks its own tissues.",
+      "remedies": ["Balance rest with gentle exercise like swimming or walking.", "Apply cold packs to reduce inflammation and warm packs to ease stiffness.", "Use assistive devices to reduce stress on joints."],
+      "whenToSeeDoctor": "This condition requires diagnosis and management by a rheumatologist. Early treatment is key to prevent joint damage.",
+      "common_otc": ["Topical pain relief gels", "Pain relievers like Ibuprofen for temporary relief"],
+      "medication_guidance": "Topical gels can be applied as needed. Oral pain relievers should be taken with food for short periods only. Long-term management requires a doctor's prescription.",
+      "foodToAvoid": "Processed foods, sugary drinks, and anything that promotes inflammation. An anti-inflammatory diet (rich in omega-3s, fruits, vegetables) may help."
+    }
+  },
+  {
+    "disease": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "symptoms": ["cough", "phlegm", "breathlessness", "wheezing", "chest_tightness"],
+    "symptom_weights": { "breathlessness": 5, "cough": 4, "wheezing": 4, "phlegm": 3, "chest_tightness": 3 },
+    "suggestions": {
+      "description": "COPD is a chronic inflammatory lung disease that causes obstructed airflow from the lungs. It's typically caused by long-term exposure to irritating gases or particulate matter, most often from cigarette smoke.",
+      "remedies": ["If you smoke, quitting is the most important step.", "Avoid lung irritants like dust and fumes.", "Practice pursed-lip breathing to manage shortness of breath."],
+      "whenToSeeDoctor": "COPD must be diagnosed and managed by a doctor. See a doctor if you have a persistent cough and increasing breathlessness, especially if you have a history of smoking.",
+      "common_otc": ["None. This condition requires prescription inhalers and medication."],
+      "medication_guidance": "All medications for COPD must be prescribed and managed by a doctor.",
+      "foodToAvoid": "Large meals that can press on the diaphragm. Avoid excessive salt which can cause fluid retention."
+    }
+  },
+  {
+    "disease": "Angina Pectoris",
+    "symptoms": ["chest_pain", "breathlessness", "dizziness", "fatigue"],
+    "symptom_weights": { "chest_pain": 5, "breathlessness": 4, "dizziness": 3, "fatigue": 2 },
+    "suggestions": {
+      "description": "Angina is chest pain or discomfort caused when your heart muscle doesn't get enough oxygen-rich blood. It may feel like pressure or squeezing in your chest. It is a symptom of coronary artery disease.",
+      "remedies": ["Rest immediately when angina occurs.", "Reduce stress.", "Follow a heart-healthy lifestyle (diet, exercise)."],
+      "whenToSeeDoctor": "Any new, worsening, or persistent chest pain requires immediate medical evaluation. Call for emergency help if pain is severe or lasts longer than a few minutes.",
+      "common_otc": ["None. This is a medical emergency that requires prescription drugs."],
+      "medication_guidance": "Do not self-medicate. This condition is often treated with prescription Nitroglycerin under a doctor's supervision.",
+      "foodToAvoid": "Saturated and trans fats, high-cholesterol foods, excessive sodium, and added sugars."
+    }
+  },
+  {
+    "disease": "Ear Infection (Otitis Media)",
+    "symptoms": ["ear_pain", "high_fever", "vomiting", "lethargy", "hearing_loss"],
+    "symptom_weights": { "ear_pain": 5, "high_fever": 4, "hearing_loss": 3, "vomiting": 2, "lethargy": 2 },
+    "suggestions": {
+        "description": "An ear infection (acute otitis media) is an inflammation of the middle ear, the air-filled space behind the eardrum. It is often caused by a bacterial or viral infection.",
+        "remedies": ["Apply a warm, moist compress or cloth over the affected ear to help with pain.", "Rest in an upright position rather than lying down to help relieve pressure in the middle ear.", "Do not insert cotton buds or any other objects into the ear."],
+        "whenToSeeDoctor": "If pain is severe, symptoms don't improve within 2-3 days, or if there is any discharge (fluid) coming from the ear.",
+        "common_otc": ["Pain relievers for fever/pain (e.g., Paracetamol or Ibuprofen)"],
+        "medication_guidance": "Take painkillers as directed on the package for temporary relief. Medicated eardrops require a doctor's prescription as they often contain antibiotics."
+    }
+},
+{
+    "disease": "Conjunctivitis (Pink Eye)",
+    "symptoms": ["redness_of_eyes", "eye_itching", "watering_from_eyes"],
+    "symptom_weights": { "redness_of_eyes": 5, "eye_itching": 4, "watering_from_eyes": 4 },
+    "suggestions": {
+        "description": "Conjunctivitis is an inflammation or infection of the transparent membrane (conjunctiva) that lines your eyelid and covers the white part of your eyeball. It can be caused by a virus, bacteria, or allergies.",
+        "remedies": ["Gently clean away any discharge from the eyelids using a clean cotton ball soaked in boiled and cooled water.", "Do not share towels or pillows to prevent spreading the infection.", "Avoid wearing contact lenses until the infection has cleared."],
+        "whenToSeeDoctor": "A doctor's visit is essential to determine the cause. See a doctor immediately if you have eye pain, intense redness, blurred vision, or sensitivity to light.",
+        "common_otc": ["Lubricating eye drops (artificial tears) for comfort."],
+        "medication_guidance": "A doctor must diagnose the cause. Bacterial conjunctivitis requires prescription antibiotic drops. Allergic conjunctivitis may benefit from antihistamine drops. Viral cases do not respond to antibiotics."
+    }
+},
+{
+    "disease": "Scabies",
+    "symptoms": ["itching", "skin_rash"],
+    "symptom_weights": { "itching": 5, "skin_rash": 4 },
+    "suggestions": {
+        "description": "Scabies is a contagious skin infestation caused by a tiny mite called Sarcoptes scabiei. It is characterized by intense itching that is typically worse at night, along with a pimple-like rash.",
+        "remedies": ["**This is not for self-remedy.** All household members and close contacts must be treated at the same time, even if they don't have symptoms.", "Wash all bedding, clothing, and towels used in the last 3 days in very hot water and dry on high heat."],
+        "whenToSeeDoctor": "As soon as you suspect scabies, to get the correct diagnosis and prescription for yourself and your family to prevent re-infestation.",
+        "common_otc": ["None. This requires a prescription."],
+        "medication_guidance": "Treatment involves medicated creams (e.g., Permethrin) or lotions that kill the mites, which must be prescribed by a doctor. Apply the cream as directed over the entire body."
+    }
+},
+{
+    "disease": "Gout",
+    "symptoms": ["joint_pain", "swelling"],
+    "symptom_weights": { "joint_pain": 5, "swelling": 5 },
+    "suggestions": {
+        "description": "Gout is a common and complex form of arthritis characterized by sudden, severe attacks of pain, swelling, redness, and tenderness in the joints, often at the base of the big toe.",
+        "remedies": ["During an attack, rest and elevate the affected limb.", "Keep the joint cool by applying an ice pack wrapped in a towel for up to 20 minutes.", "Drink plenty of fluids to help flush out uric acid."],
+        "whenToSeeDoctor": "During a first attack to get an accurate diagnosis. You should also see a doctor to manage recurring attacks and discuss long-term prevention strategies.",
+        "common_otc": ["Pain relievers like Ibuprofen or Naproxen to manage pain and inflammation during an acute attack."],
+        "medication_guidance": "Follow package directions for OTC painkillers during an attack. Long-term prevention requires prescription drugs to lower uric acid levels, managed by a doctor."
+    }
+},
+{
+    "disease": "Diverticulitis",
+    "symptoms": ["abdominal_pain", "high_fever", "nausea", "constipation", "diarrhoea", "bloating"],
+    "symptom_weights": { "abdominal_pain": 5, "high_fever": 4, "nausea": 3, "constipation": 2, "diarrhoea": 2, "bloating": 2 },
+    "suggestions": {
+        "description": "Diverticulitis occurs when small, bulging pouches (diverticula) that can form in the lining of your digestive system become inflamed or infected. It often causes persistent and severe abdominal pain, usually in the lower left side.",
+        "remedies": ["**Requires Medical Guidance.** For mild cases, a doctor might recommend rest, a temporary liquid or low-fiber diet to allow your bowel to heal, followed by a gradual reintroduction of fiber."],
+        "whenToSeeDoctor": "For any persistent, unexplained abdominal pain, especially if accompanied by fever, nausea, or a change in bowel habits. Severe or worsening pain requires emergency medical attention.",
+        "common_otc": ["None. This condition requires prescription antibiotics."],
+        "medication_guidance": "Treatment typically involves a course of antibiotics prescribed by a doctor to clear the infection. Complete the full course of antibiotics even if you start to feel better."
+    }
+},
+{
+    "disease": "Sinusitis",
+    "symptoms": ["sinus_pressure", "runny_nose", "loss_of_smell", "headache", "high_fever"],
+    "symptom_weights": { "sinus_pressure": 5, "headache": 4, "runny_nose": 3, "loss_of_smell": 3, "high_fever": 2 },
+    "suggestions": {
+        "description": "Sinusitis is an inflammation or swelling of the tissue lining the sinuses, which are hollow spaces within the bones between your eyes, behind your cheekbones, and in your forehead. It can cause them to get blocked and filled with fluid.",
+        "remedies": ["**Steam Inhalation:** Inhaling steam from a bowl of hot water can help to moisten the sinus passages and relieve congestion.", "**Saline Nasal Wash:** Use a saline nasal spray or a neti pot to rinse your nasal passages, which helps clear mucus.", "**Warm Compress:** Applying a warm, damp cloth to your face can help ease facial pain and pressure."],
+        "whenToSeeDoctor": "If your symptoms are severe, include a high fever that persists, or if you don't feel better after 10 days.",
+        "common_otc": ["Pain relievers (e.g., Paracetamol or Ibuprofen)", "Decongestant nasal sprays", "Antihistamines if allergies are a factor"],
+        "medication_guidance": "Do not use decongestant nasal sprays for more than 3-5 consecutive days, as overuse can cause rebound congestion. A doctor may prescribe antibiotics if a bacterial infection is suspected."
+    }
+},
+  {
+    "disease": "Acute Bronchitis",
+    "symptoms": ["cough", "phlegm", "chest_tightness", "fatigue", "headache", "throat_irritation"],
+    "symptom_weights": { "cough": 5, "phlegm": 4, "chest_tightness": 4, "throat_irritation": 3, "fatigue": 2, "headache": 2 },
+    "suggestions": {
+        "description": "Acute bronchitis is an inflammation of the airways in the lungs (bronchial tubes), usually caused by a virus. It often develops after a common cold and results in a hacking cough.",
+        "remedies": ["Get plenty of rest and drink lots of fluids to stay hydrated and help thin mucus.", "Inhaling steam can help soothe the airways.", "A homemade remedy of honey and lemon in hot water can soothe a cough."],
+        "whenToSeeDoctor": "If your cough is very severe or lasts more than 3 weeks, if you have a high fever that won't go down, or if you feel very breathless.",
+        "common_otc": ["Pain relievers (e.g., Paracetamol)", "Cough expectorants (e.g., Guaifenesin) or soothing herbal cough syrups"],
+        "medication_guidance": "Take painkillers as per package instructions. Follow syrup dosage recommendations. Antibiotics are not needed for viral bronchitis."
+    }
+},
+{
+    "disease": "Food Poisoning",
+    "symptoms": ["nausea", "vomiting", "diarrhoea", "abdominal_pain", "high_fever"],
+    "symptom_weights": { "vomiting": 5, "diarrhoea": 5, "nausea": 4, "abdominal_pain": 4, "high_fever": 3 },
+    "suggestions": {
+        "description": "Food poisoning is an illness caused by eating contaminated food. It's typically caused by bacteria or viruses and symptoms can range from mild to severe.",
+        "remedies": ["**Hydration is critical:** Sip small amounts of water or an Oral Rehydration Solution (ORS) frequently to replace lost fluids.", "Rest your stomach. Avoid solid foods until vomiting subsides.", "When you're ready to eat again, start with bland, easy-to-digest foods like bananas, rice, khichdi, and toast (BRAT diet)."],
+        "whenToSeeDoctor": "If you have signs of severe dehydration (like no urination), a fever above 102°F, bloody diarrhea, or if symptoms do not improve after 2-3 days.",
+        "common_otc": ["Oral Rehydration Salts (ORS)"],
+        "medication_guidance": "Mix and drink ORS as directed on the sachet throughout the day. Do not self-medicate with anti-diarrhoea medicine without consulting a doctor."
+    }
+},
+{
+    "disease": "Measles",
+    "symptoms": ["continuous_sneezing", "runny_nose", "redness_of_eyes", "sensitivity_to_light", "high_fever", "skin_rash"],
+    "symptom_weights": { "skin_rash": 5, "high_fever": 5, "redness_of_eyes": 4, "sensitivity_to_light": 3, "runny_nose": 2, "continuous_sneezing": 2 },
+    "suggestions": {
+        "description": "Measles is a highly contagious viral illness that can be very serious. It starts with cold-like symptoms, followed by a characteristic red-brown blotchy rash a few days later.",
+        "remedies": ["**Prevention is key:** The MMR vaccine is the best protection.", "For an active infection, it's about supportive care: plenty of rest in a dim room (for light sensitivity), and staying hydrated with water and juices.", "A humidifier can help ease the cough and sore throat."],
+        "whenToSeeDoctor": "**As soon as you suspect measles.** It is a notifiable disease and can lead to serious complications like pneumonia and encephalitis. It is a public health concern.",
+        "common_otc": ["Pain relievers for fever (e.g., Paracetamol)"],
+        "medication_guidance": "Follow the doctor's advice strictly. All cases of measles should be medically supervised. A doctor may also recommend Vitamin A supplements."
+    }
+},
+{
+    "disease": "Peripheral Neuropathy",
+    "symptoms": ["numbness_tingling", "nerve_pain", "loss_of_balance", "muscle_weakness"],
+    "symptom_weights": { "numbness_tingling": 5, "nerve_pain": 5, "muscle_weakness": 4, "loss_of_balance": 3 },
+    "suggestions": {
+        "description": "Peripheral neuropathy is damage or disease affecting nerves, which may impair sensation, movement, or gland or organ function. It most often affects the hands and feet.",
+        "remedies": ["**Requires a doctor's diagnosis to find the underlying cause (like Diabetes or vitamin deficiency).**", "**Foot care is crucial:** Inspect your feet daily for cuts or sores you may not feel.", "Regular, gentle exercise like walking can improve blood flow.", "Avoid tight shoes."],
+        "whenToSeeDoctor": "If you experience persistent numbness, tingling, or burning pain in your hands or feet, to get a proper diagnosis and treatment plan.",
+        "common_otc": ["OTC painkillers are often not very effective for nerve pain."],
+        "medication_guidance": "Treatment depends on the cause. A doctor may prescribe specific medications for nerve pain or vitamin supplements if a deficiency is found. All medications for neuropathy must be prescribed."
+    }
+},
+{
+    "disease": "Psoriasis",
+    "symptoms": ["skin_rash", "itching", "joint_pain", "swelling"],
+    "symptom_weights": { "skin_rash": 5, "itching": 4, "joint_pain": 3, "swelling": 3 },
+    "suggestions": {
+        "description": "Psoriasis is a chronic autoimmune skin condition that causes the rapid build-up of skin cells. This build-up of cells causes scaling on the skin’s surface. Inflammation and redness around the scales are common.",
+        "remedies": ["**Moisturize your skin daily** with a thick, plain emollient.", "Avoid scratching the patches.", "Manage stress, as it can be a trigger for flare-ups.", "Get a small amount of sunlight, but avoid getting sunburned."],
+        "whenToSeeDoctor": "For a proper diagnosis and to create a long-term management plan. See a doctor if you have joint pain, as this could be psoriatic arthritis.",
+        "common_otc": ["Coal tar ointments", "Salicylic acid creams to remove scales"],
+        "medication_guidance": "Apply OTC creams as directed on the package, usually 1-2 times a day. Stronger treatments, including steroid creams and light therapy, are prescription-only and require a dermatologist's care."
+    }
+},
+{
+    "disease": "Labyrinthitis",
+    "symptoms": ["vertigo", "dizziness", "nausea", "vomiting", "hearing_loss", "tinnitus"],
+    "symptom_weights": { "vertigo": 5, "dizziness": 5, "nausea": 4, "vomiting": 3, "hearing_loss": 3, "tinnitus": 2 },
+    "suggestions": {
+        "description": "Labyrinthitis is an inner ear infection that affects the labyrinth, a delicate structure deep inside your ear. It causes a sudden, severe sensation of spinning (vertigo), dizziness, and problems with balance.",
+        "remedies": ["**Rest is essential during an attack.** Lie still in a quiet, dark room to minimize the spinning sensation.", "Drink plenty of water to stay hydrated, especially if you have been vomiting.", "Avoid sudden movements, bright lights, and reading during an attack."],
+        "whenToSeeDoctor": "See a doctor for any sudden onset of vertigo to get a correct diagnosis. Seek emergency help if you also have a severe headache, double vision, or weakness in your arms or legs.",
+        "common_otc": ["Some antihistamines may help with dizziness, but consult a doctor first."],
+        "medication_guidance": "A doctor may prescribe anti-sickness medication or other drugs to help with vertigo. Take medication exactly as prescribed by your doctor."
+    }
+
+},
+{
+"disease": "Jaundice",
+"symptoms": ["yellowish_skin", "vomiting", "fatigue", "high_fever", "nausea", "loss_of_appetite", "abdominal_pain", "dark_urine", "itching"],
+"symptom_weights": { "yellowish_skin": 5, "dark_urine": 5, "abdominal_pain": 4, "vomiting": 3, "fatigue": 3, "high_fever": 2, "nausea": 2, "loss_of_appetite": 2, "itching": 2 },
+"suggestions": {
+    "description": "Jaundice is a condition in which the skin, whites of the eyes and mucous membranes turn yellow because of a high level of bilirubin, a yellow-orange bile pigment. Jaundice has many causes, including hepatitis, gallstones and tumors.",
+    "remedies": ["Medical evaluation is essential to determine the underlying cause.", "Get plenty of rest.", "Stay hydrated by drinking lots of water."],
+    "whenToSeeDoctor": "Immediately. Jaundice is a sign of an underlying medical condition that needs to be diagnosed and treated by a healthcare professional.",
+    "common_otc": ["None. Requires diagnosis and prescription from a doctor."],
+    "medication_guidance": "Treatment depends entirely on the underlying cause and must be prescribed by a doctor."
+}
+},
+{
+"disease": "Glandular Fever (Mononucleosis)",
+"symptoms": ["throat_irritation", "high_fever", "swelled_lymph_nodes", "fatigue", "lethargy", "muscle_pain", "chills", "loss_of_appetite"],
+"symptom_weights": { "fatigue": 5, "throat_irritation": 5, "swelled_lymph_nodes": 5, "high_fever": 4, "lethargy": 3, "muscle_pain": 3, "chills": 2, "loss_of_appetite": 2 },
+"suggestions": {
+  "description": "Glandular fever is a common viral infection, sometimes known as 'the kissing disease', that's most common in young adults and teenagers.",
+  "remedies": ["Get plenty of rest and sleep.", "Drink plenty of fluids to avoid dehydration.", "Use painkillers like paracetamol or ibuprofen to treat fever, headaches and muscle pain."],
+  "whenToSeeDoctor": "You should see a GP if you think you have glandular fever. While the illness usually isn't serious, its symptoms are similar to more serious conditions like tonsillitis or hepatitis.",
+  "common_otc": ["Pain relievers for pain and fever relief (e.g., Paracetamol or Ibuprofen)"],
+  "medication_guidance": "Follow package directions for over-the-counter painkillers. Antibiotics are not effective because it's a viral infection."
+}
+},
+{
+"disease": "Heart Failure",
+"symptoms": ["breathlessness", "orthopnea", "fatigue", "swollen_extremeties", "fast_heart_rate", "dizziness", "cough"],
+"symptom_weights": { "breathlessness": 5, "orthopnea": 5, "swollen_extremeties": 4, "fatigue": 4, "fast_heart_rate": 3, "cough": 2, "dizziness": 2 },
+"suggestions": {
+  "description": "Heart failure means that the heart is unable to pump blood around the body properly. It's a long-term condition that usually gets slowly worse over time.",
+  "remedies": ["There is no cure, but treatment can help keep the symptoms under control.", "Lifestyle changes like eating a healthy diet, not smoking, and regular exercise are crucial."],
+  "whenToSeeDoctor": "You should see your GP if you experience the symptoms of heart failure for the first time. The main symptoms are breathlessness, fatigue, and swollen ankles or legs.",
+  "common_otc": ["None. Requires diagnosis and long-term management by a cardiologist."],
+  "medication_guidance": "All medication must be taken exactly as prescribed by your doctor."
+}
+},
+{
+"disease": "Epilepsy",
+"symptoms": ["seizures", "numbness_tingling", "dizziness", "loss_of_balance", "muscle_weakness"],
+"symptom_weights": { "seizures": 5, "numbness_tingling": 3, "dizziness": 2, "loss_of_balance": 2, "muscle_weakness": 2 },
+"suggestions": {
+  "description": "Epilepsy is one of the most common long-term conditions affecting the brain. An epileptic seizure is a short-lived disruption in normal brain activity.",
+  "remedies": ["It is important to identify and avoid any seizure triggers, which can include stress, lack of sleep, and alcohol.", "Ensuring you take your medication correctly is the most important part of self-care."],
+  "whenToSeeDoctor": "See your GP if you think you might have had a seizure for the first time. A diagnosis of epilepsy can only be made by a specialist after an assessment.",
+  "common_otc": ["None. Requires diagnosis and treatment by a neurologist."],
+  "medication_guidance": "All medication must be taken as prescribed by a specialist."
+}
+},
+{
+"disease": "Slipped Disc",
+"symptoms": ["back_pain", "nerve_pain", "numbness_tingling", "muscle_weakness"],
+"symptom_weights": { "back_pain": 5, "nerve_pain": 5, "numbness_tingling": 4, "muscle_weakness": 3 },
+"suggestions": {
+  "description": "A slipped disc, also known as a prolapsed or herniated disc, is when a soft cushion of tissue between the bones in your spine pushes out. It can be painful if it presses on nerves.",
+  "remedies": ["Continue with your normal activities as much as possible.", "Gentle exercises like walking, swimming, and yoga can help.", "Use hot or cold packs on the affected area for short-term relief."],
+  "whenToSeeDoctor": "See a GP if the pain is severe, doesn't improve after a few weeks, or if you have weakness or numbness in both legs.",
+  "common_otc": ["Pain relievers (e.g., Paracetamol and Ibuprofen)", "Muscle relaxant gels"],
+  "medication_guidance": "Follow package instructions for painkillers. Do not exceed the recommended dose. A pharmacist may recommend stronger painkillers containing codeine for short-term use."
+}
+},
+{
+"disease": "Meningitis",
+"symptoms": ["high_fever", "headache", "vomiting", "skin_rash", "sensitivity_to_light", "muscle_pain", "shivering"],
+"symptom_weights": { "high_fever": 5, "headache": 5, "skin_rash": 5, "sensitivity_to_light": 4, "vomiting": 3, "muscle_pain": 2, "shivering": 2 },
+"suggestions": {
+  "description": "Meningitis is an infection of the protective membranes that surround the brain and spinal cord (meninges). It's very serious and can cause life-threatening blood poisoning (septicaemia).",
+  "remedies": ["There are no effective self-care remedies. Meningitis is a medical emergency and requires immediate hospital treatment."],
+  "whenToSeeDoctor": "You should get medical advice as soon as possible if you're concerned that you or your child could have meningitis. Trust your instincts and do not wait for a rash to develop.",
+  "common_otc": ["None. Requires immediate emergency medical care."],
+  "medication_guidance": "Treatment in hospital involves antibiotics given directly into a vein, fluids to prevent dehydration, and oxygen through a face mask."
+}
+},
+{
+"disease": "Iron Deficiency Anaemia",
+"symptoms": ["fatigue", "lethargy", "breathlessness", "pallor", "headache", "dizziness", "fast_heart_rate", "tinnitus"],
+"symptom_weights": { "fatigue": 5, "pallor": 5, "breathlessness": 4, "lethargy": 3, "dizziness": 3, "headache": 2, "fast_heart_rate": 2, "tinnitus": 1 },
+"suggestions": {
+  "description": "Iron deficiency anaemia is a condition where a lack of iron in the body leads to a reduction in the number of red blood cells.",
+  "remedies": ["Eat and drink more iron-rich foods, like dark-green leafy vegetables, iron-fortified cereals or bread, and meat.", "Drink less tea and coffee, especially with meals.", "Take iron supplements if recommended by a doctor."],
+  "whenToSeeDoctor": "You should see a GP if you think you may have iron deficiency anaemia. A simple blood test can usually confirm the diagnosis.",
+  "common_otc": ["None. Requires a doctor's diagnosis for treatment."],
+  "medication_guidance": "Treatment almost always includes iron supplements, which must be prescribed by a GP. Follow the dosage prescribed by your doctor exactly, as taking too much iron can be toxic."
+}
+},
+{
+"disease": "Appendicitis",
+"symptoms": ["abdominal_pain", "nausea", "vomiting", "loss_of_appetite", "high_fever", "constipation", "diarrhoea"],
+"symptom_weights": { "abdominal_pain": 5, "high_fever": 4, "nausea": 3, "vomiting": 3, "loss_of_appetite": 3, "constipation": 1, "diarrhoea": 1 },
+"suggestions": {
+  "description": "Appendicitis is a painful swelling and infection of the appendix, a small pouch attached to the large intestine.",
+  "remedies": ["There are no effective self-care remedies for appendicitis.", "If you have abdominal pain that's gradually getting worse, contact a GP or local out-of-hours service immediately."],
+  "whenToSeeDoctor": "Appendicitis is a medical emergency. Call for an ambulance if you have sudden abdominal pain that gets progressively worse.",
+  "common_otc": ["None. Requires emergency medical care and surgery."],
+  "medication_guidance": "Appendicitis is treated with surgery to remove the appendix, often accompanied by antibiotics."
+}
+},
+{
+"disease": "Chickenpox",
+"symptoms": ["skin_rash", "blisters", "itching", "high_fever", "loss_of_appetite", "malaise", "headache"],
+"symptom_weights": { "skin_rash": 5, "blisters": 5, "itching": 4, "high_fever": 3, "loss_of_appetite": 2, "malaise": 2, "headache": 2 },
+"suggestions": {
+  "description": "Chickenpox is a common illness, caused by a virus, that mainly affects children and causes an itchy, spotty rash.",
+  "remedies": ["Drink plenty of fluid to avoid dehydration.", "Cut your fingernails to stop scratching and prevent skin infections.", "Wear loose, smooth cotton clothing to stay cool."],
+  "whenToSeeDoctor": "It's advisable to speak to a GP if you are pregnant, have a weakened immune system, or if you think your newborn baby has chickenpox. Also see a doctor if the skin around the blisters becomes red, hot or painful.",
+  "common_otc": ["Pain relievers for fever (e.g., Paracetamol)", "Soothing creams and gels, such as calamine lotion"],
+  "medication_guidance": "Use paracetamol as directed on the package for fever. Apply lotion as needed to relieve itching."
+}
+},
+{
+"disease": "Hypothyroidism (Underactive Thyroid)",
+"symptoms": ["fatigue", "lethargy", "constipation", "muscle_pain", "muscle_weakness", "numbness_tingling", "depression"],
+"symptom_weights": { "fatigue": 5, "lethargy": 4, "constipation": 4, "muscle_pain": 3, "muscle_weakness": 3, "numbness_tingling": 2, "depression": 2 },
+"suggestions": {
+  "description": "An underactive thyroid (hypothyroidism) is where your thyroid gland does not produce enough hormones.",
+  "remedies": ["There are no self-care remedies to treat hypothyroidism itself. Treatment relies on medication."],
+  "whenToSeeDoctor": "See a GP if you have symptoms of an underactive thyroid. A blood test is used to measure your hormone levels and diagnose the condition.",
+  "common_otc": ["None. Requires a doctor's diagnosis and prescription medication."],
+  "medication_guidance": "Hypothyroidism is treated by taking daily hormone replacement tablets. This is a lifelong treatment prescribed and monitored by a doctor."
+}
+},
+{
+"disease": "Cellulitis",
+"symptoms": ["skin_rash", "swelling", "blisters", "high_fever", "chills", "shivering"],
+"symptom_weights": { "skin_rash": 5, "swelling": 5, "high_fever": 4, "chills": 3, "shivering": 3, "blisters": 2 },
+"suggestions": {
+  "description": "Cellulitis is a bacterial infection of the deep layer of skin (the dermis) and the layer of fat and soft tissues (the subcutaneous tissues) underneath.",
+  "remedies": ["Rest the affected body part.", "Drink plenty of fluids to prevent dehydration.", "Keep the affected limb elevated to help reduce swelling."],
+  "whenToSeeDoctor": "See a GP as soon as possible if an area of your skin becomes red, hot, swollen and tender. Early treatment is vital.",
+  "common_otc": ["Pain relievers (e.g., paracetamol or ibuprofen)"],
+  "medication_guidance": "The main treatment for cellulitis is antibiotics, which must be prescribed by a doctor. Finish the entire course as directed."
+}
+},
+{
+    "disease": "Common Cold",
+    "symptoms": ["cough", "continuous_sneezing", "runny_nose", "congestion", "throat_irritation", "headache", "muscle_pain", "loss_of_smell"],
+    "symptom_weights": { "continuous_sneezing": 5, "runny_nose": 5, "throat_irritation": 4, "congestion": 4, "cough": 3, "muscle_pain": 2, "headache": 2, "loss_of_smell": 1 },
+    "suggestions": {
+        "description": "The common cold is a mild viral infection of the nose and throat. It's very common and usually clears up on its own within a week or two.",
+        "remedies": ["Rest and sleep.", "Keep warm.", "Drink plenty of water (fruit juice or squash mixed with water is also fine) to avoid dehydration.", "Gargle with salt water to soothe a sore throat."],
+        "whenToSeeDoctor": "See a GP if your symptoms don't improve after 3 weeks, your symptoms get suddenly worse, or you have a high temperature (fever).",
+        "common_otc": ["Pain relievers (e.g., paracetamol or ibuprofen)", "Decongestants and nasal sprays", "Antihistamines for sneezing"],
+        "medication_guidance": "Follow the instructions on the packaging for any over-the-counter medications. Do not use decongestant sprays for more than 3-5 days."
+    }
+},
+{
+    "disease": "Tonsillitis",
+    "symptoms": ["throat_irritation", "high_fever", "headache", "nausea", "fatigue", "ear_pain", "swelled_lymph_nodes"],
+    "symptom_weights": { "throat_irritation": 5, "high_fever": 4, "swelled_lymph_nodes": 4, "headache": 3, "nausea": 2, "fatigue": 2, "ear_pain": 2 },
+    "suggestions": {
+        "description": "Tonsillitis is inflammation of the tonsils, the two small glands at the back of your throat. It's a common condition in children, teenagers and young adults.",
+        "remedies": ["Get plenty of rest.", "Drink cool drinks to soothe the throat.", "Gargle with warm, salty water."],
+        "whenToSeeDoctor": "See a GP if you have symptoms for more than 4 days and they don't start to improve, or if you have severe symptoms that make it difficult to eat or drink.",
+        "common_otc": ["Pain relievers (e.g., paracetamol and ibuprofen)"],
+        "medication_guidance": "Follow package instructions for painkillers. A doctor may prescribe antibiotics if the infection is caused by bacteria, but they are not effective for viral tonsillitis."
+    }
+},
+{
+    "disease": "Norovirus",
+    "symptoms": ["nausea", "diarrhoea", "vomiting", "high_fever", "headache", "muscle_pain", "abdominal_pain"],
+    "symptom_weights": { "vomiting": 5, "diarrhoea": 5, "nausea": 4, "abdominal_pain": 3, "high_fever": 2, "headache": 2, "muscle_pain": 2 },
+    "suggestions": {
+        "description": "Norovirus, sometimes known as the 'winter vomiting bug', is a stomach bug that causes vomiting and diarrhoea. It's very contagious and can be very unpleasant, but usually clears up in a few days.",
+        "remedies": ["The most important thing is to rest and have plenty of fluids to avoid dehydration.", "Stay at home and don't go to work or send your children to school until 48 hours after your symptoms have cleared.", "Wash your hands frequently and thoroughly with soap and water."],
+        "whenToSeeDoctor": "You don't normally need to see your GP as it usually clears up on its own. However, seek medical advice if you have symptoms of severe dehydration or if your symptoms haven't improved after a few days.",
+        "common_otc": ["Oral Rehydration Solution (ORS)", "Pain relievers for fever (e.g., Paracetamol)"],
+        "medication_guidance": "Mix and drink ORS as directed to prevent dehydration. Take paracetamol as needed for fever and aches."
+    }
+},
+{
+    "disease": "Laryngitis",
+    "symptoms": ["throat_irritation", "cough", "high_fever", "lethargy"],
+    "symptom_weights": { "throat_irritation": 5, "cough": 4, "high_fever": 3, "lethargy": 2 },
+    "suggestions": {
+        "description": "Laryngitis is where your voice box or vocal cords in the throat become irritated or swollen. It usually comes on suddenly and gets better within 1 to 2 weeks.",
+        "remedies": ["Speak as little as possible and rest your voice.", "Drink plenty of fluids.", "Avoid smoky or dusty places.", "Gargle with warm, salty water."],
+        "whenToSeeDoctor": "See a GP if your symptoms haven't improved after 2 weeks, as it may be a sign of a more serious underlying condition.",
+        "common_otc": ["Painkillers (e.g., paracetamol or ibuprofen)"],
+        "medication_guidance": "Take painkillers as per package instructions to help relieve associated pain and fever."
+    }
+},
+{
+    "disease": "Rosacea",
+    "symptoms": ["skin_rash", "burning_sensation", "redness_of_eyes", "swelling"],
+    "symptom_weights": { "skin_rash": 5, "burning_sensation": 4, "swelling": 3, "redness_of_eyes": 3 },
+    "suggestions": {
+        "description": "Rosacea is a long-term skin condition that mainly affects the face. It's more common in women and people with fair skin, but can affect all skin types.",
+        "remedies": ["Identify and avoid triggers. Common triggers include alcohol, caffeine, spicy foods, and stress.", "Wear a high-SPF sunscreen every day.", "Cleanse your face with a gentle, non-abrasive cleanser."],
+        "whenToSeeDoctor": "See a GP if you have persistent symptoms that could be caused by rosacea. Early treatment can help stop the condition from getting worse.",
+        "common_otc": ["Gentle cleansers and moisturizers formulated for sensitive skin"],
+        "medication_guidance": "A GP or dermatologist must diagnose and manage rosacea. They may prescribe medicated creams, gels, or oral antibiotics."
+    }
+},
+{
+    "disease": "Shingles",
+    "symptoms": ["nerve_pain", "skin_rash", "blisters", "itching", "high_fever", "headache"],
+    "symptom_weights": { "nerve_pain": 5, "skin_rash": 5, "blisters": 4, "itching": 3, "high_fever": 2, "headache": 2 },
+    "suggestions": {
+        "description": "Shingles is an infection that causes a painful rash. It's caused by the same virus as chickenpox. It can appear anywhere on your body but is most common as a single stripe of blisters on one side of the body.",
+        "remedies": ["Keep the rash clean and dry to reduce the risk of infection.", "Wear loose-fitting clothing.", "Use a cool compress on the affected area a few times a day."],
+        "whenToSeeDoctor": "You should see a GP as soon as you suspect shingles, especially if you are pregnant or have a weakened immune system. Early treatment with antivirals is most effective.",
+        "common_otc": ["Painkillers (e.g., paracetamol or ibuprofen)"],
+        "medication_guidance": "A GP must diagnose shingles. They may prescribe antiviral medicine to speed up your recovery and reduce the risk of complications. All medication must be taken as prescribed."
+    }
+},
+{
+    "disease": "Pancreatitis (Acute)",
+    "symptoms": ["abdominal_pain", "nausea", "vomiting", "high_fever", "fast_heart_rate", "indigestion", "yellowish_skin"],
+    "symptom_weights": { "abdominal_pain": 5, "nausea": 4, "vomiting": 4, "high_fever": 3, "fast_heart_rate": 3, "yellowish_skin": 3, "indigestion": 2 },
+    "suggestions": {
+        "description": "Acute pancreatitis is a condition where the pancreas becomes inflamed over a short period of time. It's a serious condition that can be life-threatening.",
+        "remedies": ["Pancreatitis is a medical emergency that requires hospital treatment. There are no self-care remedies."],
+        "whenToSeeDoctor": "Go to A&E immediately if you develop sudden, severe pain in the centre of your abdomen.",
+        "common_otc": ["None. Requires immediate emergency medical care in a hospital."],
+        "medication_guidance": "Treatment involves admission to hospital for intravenous (IV) fluids, pain relief, and nutritional support."
+    }
+},
+{
+    "disease": "Gallstones",
+    "symptoms": ["abdominal_pain", "nausea", "vomiting", "yellowish_skin", "high_fever", "chills", "itching"],
+    "symptom_weights": { "abdominal_pain": 5, "yellowish_skin": 4, "high_fever": 4, "nausea": 3, "vomiting": 3, "chills": 2, "itching": 2 },
+    "suggestions": {
+        "description": "Gallstones are small stones, usually made of cholesterol, that form in the gallbladder. In most cases they don't cause any symptoms, but if a gallstone blocks one of the bile ducts, it can cause sudden, severe abdominal pain.",
+        "remedies": ["If you have gallstones but no symptoms, you won't require treatment.", "For painful episodes, lifestyle changes like adopting a healthy, balanced diet may help."],
+        "whenToSeeDoctor": "See a GP if you think you have gallstones and are experiencing symptoms. Go to A&E if you develop jaundice, severe pain, or a high fever.",
+        "common_otc": ["Painkillers (e.g., paracetamol or ibuprofen)"],
+        "medication_guidance": "Take painkillers as directed for pain relief while awaiting medical consultation. Surgery is the most common treatment for symptomatic gallstones."
+    }
+},
+{
+    "disease": "Insomnia",
+    "symptoms": ["fatigue", "lethargy", "lack_of_concentration", "restlessness"],
+    "symptom_weights": { "fatigue": 5, "lack_of_concentration": 4, "lethargy": 3, "restlessness": 3 },
+    "suggestions": {
+        "description": "Insomnia means you regularly have problems sleeping. It usually gets better by changing your sleeping habits.",
+        "remedies": ["Go to bed and wake up at the same time every day.", "Create a dark, quiet, and cool bedroom environment.", "Avoid caffeine, nicotine, alcohol, heavy meals and exercise for a few hours before going to bed.", "Do something relaxing before bed, like reading a book or taking a warm bath."],
+        "whenToSeeDoctor": "See a GP if changing your sleeping habits hasn't worked, or if you've had trouble sleeping for more than a month.",
+        "common_otc": ["Some herbal remedies or melatonin may be used, but should be discussed with a doctor."],
+        "medication_guidance": "Improving sleep hygiene is the first step. A GP may prescribe sleeping pills for a short period, but this is not a long-term solution and is seen as a last resort."
+    }
+},
+    {
+    "disease": "Generalized Anxiety Disorder (GAD)",
+    "symptoms": ["restlessness", "fatigue", "lack_of_concentration", "irritability", "muscle_tension", "trouble_sleeping", "sweating", "nausea", "diarrhoea"],
+    "symptom_weights": {"restlessness": 5, "fatigue": 4, "lack_of_concentration": 4, "irritability": 3, "muscle_tension": 3, "trouble_sleeping": 3, "sweating": 2, "nausea": 2, "diarrhoea": 1},
+    "suggestions": {
+      "description": "Generalized Anxiety Disorder is characterized by persistent and excessive worry about everyday things that is difficult to control and interferes with day-to-day activities.",
+      "remedies": [
+        "Develop a routine to be physically active most days of the week, as exercise is a powerful stress reducer.",
+        "Prioritize getting enough sleep to feel rested and establish a relaxing bedtime routine.",
+        "Practice relaxation techniques like meditation or yoga to ease anxiety.",
+        "Keep a journal to help identify what's causing stress and what helps you feel better.",
+        "Avoid caffeine, nicotine, and alcohol as they can worsen anxiety."
+      ],
+      "whenToSeeDoctor": "If you feel like you're worrying too much and it's interfering with your work, relationships, or other parts of your life, or if you feel depressed or have suicidal thoughts (seek emergency treatment immediately).",
+      "common_otc": ["None. This condition requires professional diagnosis and a treatment plan, which may include therapy or prescription medication."],
+      "medication_guidance": "Treatments like psychotherapy (talk therapy) and prescription medications (such as antidepressants) are most effective. A doctor can help determine the best plan for you."
+    }
+  },
+  {
+    "disease": "Asthma",
+    "symptoms": ["cough", "wheezing", "shortness_of_breath", "chest_tightness", "trouble_sleeping"],
+    "symptom_weights": {"shortness_of_breath": 5, "wheezing": 5, "chest_tightness": 4, "cough": 3, "trouble_sleeping": 2},
+    "suggestions": {
+      "description": "Asthma is a chronic condition where your airways narrow, swell, and may produce extra mucus, making it difficult to breathe.",
+      "remedies": [
+        "Identify and avoid your specific asthma triggers, such as pollen, smoke, cold air, or pet dander.",
+        "Use an air conditioner to reduce airborne pollen and lower indoor humidity.",
+        "Clean your home regularly to reduce dust and encase pillows and mattresses in dustproof covers.",
+        "If exercising in cold temperatures, wear a face mask to help warm the air you breathe.",
+        "Maintain a healthy weight, as being overweight can worsen asthma symptoms."
+      ],
+      "whenToSeeDoctor": "If you have frequent coughing or wheezing that lasts more than a few days, if your medication doesn't seem to ease symptoms, or if you need to use your quick-relief inhaler more often.",
+      "common_otc": ["Antihistamine medications may help if your asthma is triggered by allergies."],
+      "medication_guidance": "Asthma requires a doctor's diagnosis and a personalized action plan. Treatment involves long-term control medications (often inhaled steroids) and quick-relief (rescue) inhalers. All medication must be used as prescribed by a doctor."
+    }
+  },
+  {
+    "disease": "Obstructive Sleep Apnea",
+    "symptoms": ["loud_snoring", "fatigue", "morning_headache", "lack_of_concentration", "dry_mouth", "gasping_for_air", "insomnia"],
+    "symptom_weights": {"gasping_for_air": 5, "loud_snoring": 5, "fatigue": 4, "insomnia": 3, "lack_of_concentration": 3, "morning_headache": 2, "dry_mouth": 2},
+    "suggestions": {
+      "description": "Sleep apnea is a potentially serious sleep disorder in which breathing repeatedly stops and starts. The most common form is obstructive sleep apnea, where throat muscles relax and block the airway during sleep.",
+      "remedies": [
+        "Losing excess weight can help relieve constriction of your throat.",
+        "Engage in regular exercise, which can help ease symptoms even without weight loss.",
+        "Avoid alcohol, tranquilizers, and sleeping pills, as they relax the muscles in the back of your throat.",
+        "Sleep on your side or abdomen rather than on your back.",
+        "Use a saline nasal spray to help keep your nasal passages open if you have congestion."
+      ],
+      "whenToSeeDoctor": "If you snore loudly enough to disturb others' sleep, wake up gasping or choking, experience pauses in breathing during sleep, or have excessive daytime drowsiness that causes you to fall asleep at work or while driving.",
+      "common_otc": ["Nasal decongestants or allergy medications may be recommended by a doctor if nasal congestion is a contributing factor."],
+      "medication_guidance": "Lifestyle changes are the first step. Medical treatment often involves using a device that provides continuous positive airway pressure (CPAP) to keep your airway open while you sleep. A doctor must diagnose the condition."
+    }
+  },
+  {
+    "disease": "Atopic Dermatitis (Eczema)",
+    "symptoms": ["itching", "skin_rash", "dry_skin", "blisters", "thickened_skin", "oozing_and_crusting"],
+    "symptom_weights": {"itching": 5, "skin_rash": 5, "dry_skin": 4, "thickened_skin": 3, "blisters": 2, "oozing_and_crusting": 2},
+    "suggestions": {
+      "description": "Atopic dermatitis, a type of eczema, is a chronic condition that causes dry, itchy, and inflamed skin. It's not contagious and tends to flare up periodically, often starting in childhood.",
+      "remedies": [
+        "Moisturize your skin at least twice a day with creams, ointments, or lotions that are unscented and free of dyes.",
+        "Take a daily bath or shower using warm (not hot) water, and limit it to about 10 minutes.",
+        "Use a gentle, nonsoap cleanser, as soap can be irritating. Pat skin dry gently and apply moisturizer while skin is still damp.",
+        "Avoid scratching. Keep nails short and consider wearing gloves at night to prevent breaking the skin.",
+        "Wear comfortable, loose-fitting clothing made of cotton and avoid irritants like wool or some synthetic fabrics."
+      ],
+      "whenToSeeDoctor": "If you are so uncomfortable that the condition is affecting sleep and daily activities, or if the skin shows signs of infection like pus, yellow scabs, or new streaks.",
+      "common_otc": ["Over-the-counter anti-itch creams (containing hydrocortisone)", "Allergy medications (antihistamines) may help reduce itching.", "Thick moisturizers or ointments (e.g., petroleum jelly)."],
+      "medication_guidance": "A doctor can prescribe stronger topical medications like corticosteroids or calcineurin inhibitors to control inflammation. Follow all prescribed treatments as directed."
+    }
+  },
+  {
+    "disease": "Insomnia",
+    "symptoms": ["fatigue", "lethargy", "lack_of_concentration", "restlessness"],
+    "symptom_weights": { "fatigue": 5, "lack_of_concentration": 4, "lethargy": 3, "restlessness": 3 },
+    "suggestions": {
+        "description": "Insomnia means you regularly have problems sleeping. It usually gets better by changing your sleeping habits.",
+        "remedies": ["Go to bed and wake up at the same time every day.", "Create a dark, quiet, and cool bedroom environment.", "Avoid caffeine, nicotine, alcohol, heavy meals and exercise for a few hours before going to bed.", "Do something relaxing before bed, like reading a book or taking a warm bath."],
+        "whenToSeeDoctor": "See a GP if changing your sleeping habits hasn't worked, or if you've had trouble sleeping for more than a month.",
+        "common_otc": ["Some herbal remedies or melatonin may be used, but should be discussed with a doctor."],
+        "medication_guidance": "Improving sleep hygiene is the first step. A GP may prescribe sleeping pills for a short period, but this is not a long-term solution and is seen as a last resort."
+    }
+  },
+
+  
+
+  {
+    "disease": "Influenza (Flu)",
+    "symptoms": ["high_fever", "muscle_pain", "headache", "fatigue", "cough", "throat_irritation", "runny_nose", "chills"],
+    "symptom_weights": { "high_fever": 5, "muscle_pain": 5, "fatigue": 4, "cough": 3, "headache": 3, "throat_irritation": 2, "runny_nose": 2, "chills": 2 },
+    "suggestions": {
+      "description": "The flu is a contagious respiratory illness caused by influenza viruses. It can cause mild to severe illness, and at times can lead to death.",
+      "remedies": ["Get plenty of rest.", "Drink clear fluids like water, broth, or sports drinks to prevent dehydration.", "Use a humidifier to help ease a stuffy nose and cough."],
+      "whenToSeeDoctor": "If you have symptoms of flu and are at high risk of complications, or if you feel short of breath, have chest pain, sudden dizziness, or severe vomiting.",
+      "common_otc": ["Pain relievers (e.g., Paracetamol, Ibuprofen)", "Decongestants", "Cough suppressants"],
+      "medication_guidance": "Follow package directions for OTC medications. A doctor may prescribe antiviral drugs, which are most effective when started within 48 hours of symptoms appearing.",
+      "foodToAvoid": "Alcohol and caffeine which can lead to dehydration. Focus on broths, soups, and other hydrating fluids."
+    }
+  },
+  {
+    "disease": "COVID-19",
+    "symptoms": ["high_fever", "cough", "fatigue", "loss_of_smell", "loss_of_taste", "headache", "muscle_pain", "throat_irritation", "shortness_of_breath"],
+    "symptom_weights": { "loss_of_smell": 5, "loss_of_taste": 5, "high_fever": 4, "cough": 4, "shortness_of_breath": 5, "fatigue": 3, "muscle_pain": 2, "headache": 2 },
+    "suggestions": {
+      "description": "COVID-19 is a contagious disease caused by a coronavirus. Most people infected will experience mild to moderate respiratory illness and recover without requiring special treatment.",
+      "remedies": ["Rest and stay hydrated.", "Isolate from others to prevent spreading the virus.", "Monitor your symptoms carefully."],
+      "whenToSeeDoctor": "Seek immediate medical attention if you show any emergency warning signs, such as trouble breathing, persistent pain or pressure in the chest, new confusion, or bluish lips or face.",
+      "common_otc": ["Pain relievers for fever and body aches (e.g., Paracetamol)."],
+      "medication_guidance": "Follow public health guidelines. A doctor may recommend specific treatments based on the severity of the illness and your risk factors.",
+      "foodToAvoid": "No specific foods to avoid, but a balanced diet and good hydration are important for recovery."
+    }
+  },
+  {
+    "disease": "Type 2 Diabetes",
+    "symptoms": ["increased_thirst", "increased_urination", "unexplained_weight_loss", "fatigue", "blurred_and_distorted_vision", "slow_healing_sores", "frequent_infections", "numbness_tingling"],
+    "symptom_weights": { "increased_thirst": 5, "increased_urination": 5, "unexplained_weight_loss": 4, "fatigue": 3, "slow_healing_sores": 3, "frequent_infections": 2, "blurred_and_distorted_vision": 2, "numbness_tingling": 2 },
+    "suggestions": {
+      "description": "Type 2 diabetes is a chronic condition that affects the way your body metabolizes sugar (glucose). Your body either resists the effects of insulin or doesn't produce enough insulin to maintain normal glucose levels.",
+      "remedies": ["Healthy eating is central to managing Type 2 Diabetes.", "Engage in regular physical activity.", "Monitor your blood sugar levels as recommended by your doctor."],
+      "whenToSeeDoctor": "See a doctor if you notice any potential diabetes symptoms. This is a condition that requires long-term medical management.",
+      "common_otc": ["None. This condition requires a doctor's diagnosis and prescription medication or insulin therapy."],
+      "medication_guidance": "Treatment involves lifestyle changes and may require oral medications or insulin. All treatment plans must be managed by a healthcare professional.",
+      "foodToAvoid": "Sugary drinks, refined carbohydrates (white bread, pasta), processed foods, and trans fats."
+    }
+  },
+  {
+    "disease": "Hay Fever (Allergic Rhinitis)",
+    "symptoms": ["continuous_sneezing", "runny_nose", "congestion", "eye_itching", "watering_from_eyes", "throat_irritation", "sinus_pressure", "cough"],
+    "symptom_weights": { "continuous_sneezing": 5, "runny_nose": 5, "eye_itching": 4, "watering_from_eyes": 4, "congestion": 3, "sinus_pressure": 2, "throat_irritation": 1, "cough": 1 },
+    "suggestions": {
+      "description": "Hay fever is an allergic response to airborne substances, such as pollen, that causes cold-like signs and symptoms. Unlike a cold, hay fever isn't caused by a virus.",
+      "remedies": ["Limit exposure to allergens by staying indoors on dry, windy days.", "Keep windows closed during high pollen seasons.", "Use a saline nasal spray to rinse your nasal passages."],
+      "whenToSeeDoctor": "If your symptoms are severe, don't respond to OTC medications, or if you have another condition like asthma that worsens your hay fever symptoms.",
+      "common_otc": ["Antihistamine tablets (e.g., Cetirizine, Loratadine)", "Decongestant nasal sprays", "Steroid nasal sprays"],
+      "medication_guidance": "Antihistamines are a first-line treatment. Do not use decongestant nasal sprays for more than a few days at a time. Steroid nasal sprays are effective for long-term use.",
+      "foodToAvoid": "No specific dietary restrictions, although some people with pollen allergies may have oral allergy syndrome to certain raw fruits, vegetables, and nuts."
+    }
+  },
+  {
+    "disease": "Prostatitis",
+    "symptoms": ["painful_urination", "difficulty_starting_urination", "increased_urination", "cloudy_urine", "pelvic_pain", "pain_in_genitals_or_groin", "flu_like_symptoms"],
+    "symptom_weights": { "painful_urination": 5, "pelvic_pain": 5, "increased_urination": 4, "pain_in_genitals_or_groin": 3, "cloudy_urine": 2, "flu_like_symptoms": 2 },
+    "suggestions": {
+      "description": "Prostatitis is swelling and inflammation of the prostate gland, a walnut-sized gland situated directly below the bladder in men. Prostatitis often causes painful or difficult urination.",
+      "remedies": ["Soaking in a warm bath (sitz bath) can help ease symptoms.", "Limit or avoid alcohol, caffeine, and spicy or acidic foods, which can irritate your bladder.", "Stay well-hydrated."],
+      "whenToSeeDoctor": "If you have pelvic pain, difficult or painful urination, or flu-like symptoms, to get an accurate diagnosis and appropriate treatment.",
+      "common_otc": ["Pain relievers like ibuprofen can help reduce inflammation and pain."],
+      "medication_guidance": "If caused by a bacterial infection, a doctor will prescribe a course of antibiotics. Other medications, like alpha blockers, may be used to help relax the bladder neck.",
+      "foodToAvoid": "Caffeine, alcohol, and spicy foods, as they can irritate the urinary tract."
+    }
+  },
+  {
+    "disease": "Interstitial Cystitis (Painful Bladder Syndrome)",
+    "symptoms": ["pelvic_pain", "continuous_feel_of_urine", "increased_urination", "painful_urination", "pain_with_intercourse"],
+    "symptom_weights": { "pelvic_pain": 5, "continuous_feel_of_urine": 5, "increased_urination": 4, "painful_urination": 3, "pain_with_intercourse": 2 },
+    "suggestions": {
+      "description": "Interstitial cystitis is a chronic, painful bladder condition. It's a feeling of pain and pressure in the bladder area. Along with this pain comes lower urinary tract symptoms that have lasted for 6 weeks or longer, without having an infection or other clear cause.",
+      "remedies": ["Dietary changes are key; avoid common irritants (the '4 Cs'): carbonated beverages, caffeine, citrus products, and food containing high concentrations of vitamin C.", "Bladder training can help.", "Manage stress."],
+      "whenToSeeDoctor": "If you have persistent bladder pain and frequent, urgent urination, to get a proper diagnosis and rule out other conditions.",
+      "common_otc": ["Over-the-counter pain relievers can provide some relief."],
+      "medication_guidance": "A doctor may prescribe oral medications or instill medications directly into your bladder. There is no single cure, so treatment is focused on symptom relief.",
+      "foodToAvoid": "Tomatoes, citrus fruits, caffeine, alcohol, spicy foods, and artificial sweeteners are common bladder irritants."
+    }
+  },
+  {
+    "disease": "Fibromyalgia",
+    "symptoms": ["muscle_pain", "fatigue", "trouble_sleeping", "lack_of_concentration", "headache", "depression", "anxiety", "abdominal_pain"],
+    "symptom_weights": { "muscle_pain": 5, "fatigue": 5, "trouble_sleeping": 4, "lack_of_concentration": 3, "headache": 2, "depression": 2, "abdominal_pain": 1 },
+    "suggestions": {
+      "description": "Fibromyalgia is a disorder characterized by widespread musculoskeletal pain accompanied by fatigue, sleep, memory and mood issues. Researchers believe that fibromyalgia amplifies painful sensations by affecting the way your brain and spinal cord process painful and nonpainful signals.",
+      "remedies": ["Regular, gentle exercise is one of the most effective treatments.", "Establish good sleep hygiene.", "Pace yourself and learn to manage your energy to avoid overexertion.", "Stress reduction techniques like yoga and meditation are very helpful."],
+      "whenToSeeDoctor": "If you have widespread pain and debilitating fatigue that interferes with your ability to function.",
+      "common_otc": ["Pain relievers like acetaminophen or ibuprofen can help with mild pain."],
+      "medication_guidance": "A doctor may prescribe antidepressants or anti-seizure drugs that are also approved for treating fibromyalgia pain. A multi-disciplinary approach is often best.",
+      "foodToAvoid": "Some people find that caffeine, aspartame, and MSG can worsen symptoms. Keeping a food diary can help identify personal triggers."
+    }
+  },
+  {
+    "disease": "Celiac Disease",
+    "symptoms": ["abdominal_pain", "bloating", "diarrhoea", "constipation", "unexplained_weight_loss", "fatigue", "skin_rash", "headache", "nausea"],
+    "symptom_weights": { "abdominal_pain": 5, "bloating": 4, "diarrhoea": 4, "unexplained_weight_loss": 3, "fatigue": 3, "skin_rash": 2, "constipation": 2 },
+    "suggestions": {
+      "description": "Celiac disease is an immune reaction to eating gluten, a protein found in wheat, barley and rye. If you have celiac disease, eating gluten triggers an immune response in your small intestine, which over time damages the intestine's lining and prevents it from absorbing some nutrients.",
+      "remedies": ["The only treatment is a strict, lifelong gluten-free diet."],
+      "whenToSeeDoctor": "If you have had diarrhea, bloating, or other digestive issues for more than two weeks, consult your doctor. Do not start a gluten-free diet before being tested, as it can affect the results.",
+      "common_otc": ["Vitamin and mineral supplements may be needed to address deficiencies caused by malabsorption."],
+      "medication_guidance": "Besides the diet, a doctor may prescribe steroids for severe inflammation. Management involves working with a dietitian.",
+      "foodToAvoid": "All foods containing wheat, barley, rye, and sometimes oats unless certified gluten-free."
+    }
+  },
+  {
+    "disease": "Mononucleosis (Mono)",
+    "symptoms": ["fatigue", "throat_irritation", "high_fever", "swelled_lymph_nodes", "headache", "skin_rash", "loss_of_appetite", "muscle_pain"],
+    "symptom_weights": { "fatigue": 5, "throat_irritation": 5, "swelled_lymph_nodes": 4, "high_fever": 3, "headache": 2, "muscle_pain": 2, "skin_rash": 1 },
+    "suggestions": {
+      "description": "Infectious mononucleosis, also called 'mono' or 'the kissing disease,' is an infection usually caused by the Epstein-Barr virus (EBV). It's most common in teenagers and young adults.",
+      "remedies": ["There is no specific therapy for mono. The most important treatments are rest and drinking plenty of fluids.", "Gargling with salt water can soothe a sore throat."],
+      "whenToSeeDoctor": "If your symptoms don't improve after a week or two, or if you develop severe abdominal pain (which could indicate a spleen issue).",
+      "common_otc": ["Pain relievers like acetaminophen or ibuprofen for fever and sore throat."],
+      "medication_guidance": "Antibiotics are not effective against viral illnesses like mono. Rest is the primary treatment. Avoid contact sports for at least a month to prevent spleen rupture.",
+      "foodToAvoid": "No specific restrictions, but ensure adequate fluid intake."
+    }
+  },
+  {
+    "disease": "Strep Throat",
+    "symptoms": ["throat_irritation", "painful_swallowing", "high_fever", "headache", "nausea", "vomiting", "skin_rash", "swelled_lymph_nodes"],
+    "symptom_weights": { "throat_irritation": 5, "painful_swallowing": 5, "high_fever": 4, "swelled_lymph_nodes": 3, "headache": 2, "skin_rash": 2, "nausea": 1 },
+    "suggestions": {
+      "description": "Strep throat is a bacterial infection that can make your throat feel sore and scratchy. Strep throat is caused by Streptococcus pyogenes, also known as group A streptococcus.",
+      "remedies": ["Medical treatment is necessary to prevent complications. Home care includes rest, fluids, and gargling with warm salt water."],
+      "whenToSeeDoctor": "If you have a severe sore throat, fever, and swollen lymph nodes, to get a rapid strep test.",
+      "common_otc": ["Pain relievers like ibuprofen or acetaminophen can help with throat pain and fever while waiting for antibiotics to work."],
+      "medication_guidance": "A doctor will prescribe a full course of antibiotics (usually penicillin or amoxicillin). It is crucial to finish the entire course to prevent rheumatic fever.",
+      "foodToAvoid": "Soft foods and cool liquids can be easier to swallow."
+    }
+  },
+  {
+    "disease": "Crohn's Disease",
+    "symptoms": ["diarrhoea", "abdominal_pain", "unexplained_weight_loss", "fatigue", "high_fever", "loss_of_appetite", "blood_in_stool"],
+    "symptom_weights": { "diarrhoea": 5, "abdominal_pain": 5, "unexplained_weight_loss": 4, "blood_in_stool": 4, "fatigue": 3, "high_fever": 2, "loss_of_appetite": 2 },
+    "suggestions": {
+      "description": "Crohn's disease is a type of inflammatory bowel disease (IBD). It causes inflammation of your digestive tract, which can lead to abdominal pain, severe diarrhea, fatigue, weight loss and malnutrition.",
+      "remedies": ["This condition requires medical management. During a flare, resting the bowel with a low-fiber or liquid diet may be helpful.", "Stress management is important."],
+      "whenToSeeDoctor": "If you have persistent changes in your bowel habits or if you have any of the signs and symptoms of Crohn's disease.",
+      "common_otc": ["Anti-diarrheal medicine, but only with a doctor's approval during a flare-up."],
+      "medication_guidance": "Treatment usually involves drug therapy to reduce inflammation, including aminosalicylates, corticosteroids, and immune system suppressors. This is managed by a gastroenterologist.",
+      "foodToAvoid": "Common triggers include high-fiber foods (like nuts and raw vegetables), dairy, and spicy or fatty foods, but triggers are highly individual."
+    }
+  },
+  {
+    "disease": "Ulcerative Colitis",
+    "symptoms": ["diarrhoea", "abdominal_pain", "blood_in_stool", "unexplained_weight_loss", "fatigue", "high_fever", "continuous_feel_of_urine"],
+    "symptom_weights": { "diarrhoea": 5, "blood_in_stool": 5, "abdominal_pain": 4, "continuous_feel_of_urine": 3, "fatigue": 2, "unexplained_weight_loss": 2 },
+    "suggestions": {
+      "description": "Ulcerative colitis (UC) is an inflammatory bowel disease (IBD) that causes long-lasting inflammation and ulcers (sores) in your digestive tract. UC affects the innermost lining of your large intestine (colon) and rectum.",
+      "remedies": ["Medical management is key. During a flare, a low-residue diet can help reduce symptoms.", "Stay hydrated.", "Manage stress."],
+      "whenToSeeDoctor": "If you have a persistent change in your bowel habits, especially persistent diarrhea with abdominal pain and blood in your stool.",
+      "common_otc": ["Anti-diarrheal medicines should only be used with a doctor's explicit permission, as they can increase the risk of a serious complication (toxic megacolon)."],
+      "medication_guidance": "Treatment is similar to Crohn's disease and aims to reduce inflammation. This includes aminosalicylates and corticosteroids, managed by a specialist.",
+      "foodToAvoid": "Triggers are individual but often include high-fiber foods, dairy, and alcohol."
+    }
+  },
+  {
+    "disease": "Reactive Arthritis",
+    "symptoms": ["joint_pain", "swelling", "painful_urination", "eye_itching", "redness_of_eyes", "diarrhoea", "skin_rash"],
+    "symptom_weights": { "joint_pain": 5, "swelling": 5, "painful_urination": 4, "eye_itching": 3, "redness_of_eyes": 3, "diarrhoea": 2, "skin_rash": 1 },
+    "suggestions": {
+      "description": "Reactive arthritis is joint pain and swelling triggered by an infection in another part of your body — most often your intestines, genitals or urinary tract. The joints of the knees, ankles and feet are the usual targets.",
+      "remedies": ["This condition is best managed by a doctor. Rest and specific exercises recommended by a physical therapist can help."],
+      "whenToSeeDoctor": "If you develop joint pain within a month of having diarrhea or a genital infection.",
+      "common_otc": ["Nonsteroidal anti-inflammatory drugs (NSAIDs) like ibuprofen or naproxen can help reduce pain and inflammation."],
+      "medication_guidance": "A doctor may prescribe stronger anti-inflammatory drugs or corticosteroids. If the triggering infection is still present, antibiotics will be given.",
+      "foodToAvoid": "No specific food restrictions."
+    }
+  },
+  {
+    "disease": "Lupus (Systemic Lupus Erythematosus)",
+    "symptoms": ["fatigue", "high_fever", "joint_pain", "skin_rash", "chest_pain", "shortness_of_breath", "headache", "confusion", "dry_eyes"],
+    "symptom_weights": { "fatigue": 5, "joint_pain": 5, "skin_rash": 4, "high_fever": 3, "chest_pain": 3, "shortness_of_breath": 2, "headache": 1 },
+    "suggestions": {
+      "description": "Lupus is a systemic autoimmune disease that occurs when your body's immune system attacks your own tissues and organs. Inflammation caused by lupus can affect many different body systems — including your joints, skin, kidneys, blood cells, brain, heart and lungs.",
+      "remedies": ["This is a complex condition requiring specialist care.", "Protect yourself from the sun, as sunlight can trigger flares.", "Get regular exercise and enough rest.", "Don't smoke."],
+      "whenToSeeDoctor": "If you have an unexplained rash, fever, persistent aching or fatigue. A rheumatologist specializes in diagnosing and treating lupus.",
+      "common_otc": ["NSAIDs can help with pain and inflammation."],
+      "medication_guidance": "Treatment depends on your signs and symptoms. A doctor may prescribe anti-malarial drugs, corticosteroids, and immune suppressants.",
+      "foodToAvoid": "Some evidence suggests avoiding alfalfa sprouts and garlic may be beneficial for people with lupus."
+    }
+  },
+  {
+    "disease": "Sjogren's Syndrome",
+    "symptoms": ["dry_eyes", "dry_mouth", "fatigue", "joint_pain", "swelling", "skin_rash", "cough"],
+    "symptom_weights": { "dry_eyes": 5, "dry_mouth": 5, "fatigue": 4, "joint_pain": 3, "swelling": 2, "skin_rash": 1, "cough": 1 },
+    "suggestions": {
+      "description": "Sjogren's (SHOW-grins) syndrome is a disorder of your immune system identified by its two most common symptoms — dry eyes and a dry mouth. The condition often accompanies other immune system disorders, such as rheumatoid arthritis and lupus.",
+      "remedies": ["Sip water regularly.", "Use artificial tears for your eyes.", "Chew sugar-free gum or use saliva substitutes to help with dry mouth.", "Use a humidifier at home."],
+      "whenToSeeDoctor": "If you've had dry eyes and dry mouth for a while, as these can have many causes. A rheumatologist can perform tests to diagnose Sjogren's.",
+      "common_otc": ["Artificial tears eye drops, mouthwashes for dry mouth, and moisturizers for dry skin."],
+      "medication_guidance": "A doctor may prescribe medications that increase saliva production, such as pilocarpine or cevimeline. Other drugs for lupus or rheumatoid arthritis may be used.",
+      "foodToAvoid": "Dry, crumbly foods can be difficult to swallow. Avoiding acidic or spicy foods can help if you have mouth sores."
+    }
+  },
+  {
+    "disease": "Scleroderma",
+    "symptoms": ["thickened_skin", "swelling", "joint_pain", "fatigue", "shortness_of_breath", "difficulty_swallowing", "heartburn"],
+    "symptom_weights": { "thickened_skin": 5, "swelling": 4, "joint_pain": 3, "shortness_of_breath": 3, "difficulty_swallowing": 3, "fatigue": 2, "heartburn": 1 },
+    "suggestions": {
+      "description": "Scleroderma is a group of rare diseases that involve the hardening and tightening of the skin and connective tissues. In some people, scleroderma affects only the skin. But in many people, scleroderma also harms structures beyond the skin, such as blood vessels, internal organs and the digestive tract.",
+      "remedies": ["This requires specialist care. Protecting your skin from cold is important.", "Stretching and physical therapy can help keep joints flexible.", "Use moisturizers for skin."],
+      "whenToSeeDoctor": "If you notice skin thickening, or changes in the appearance of your skin on your fingers after cold exposure (Raynaud's phenomenon).",
+      "common_otc": ["Antacids or H2 blockers for heartburn symptoms."],
+      "medication_guidance": "There is no cure, but various medications can control symptoms and prevent complications, such as blood pressure medications, immune-suppressing drugs, and drugs to help with breathing or digestion.",
+      "foodToAvoid": "For digestive issues, eating small, frequent meals and avoiding foods that trigger heartburn can be helpful."
+    }
+  },
+  {
+    "disease": "Multiple Sclerosis (MS)",
+    "symptoms": ["numbness_tingling", "muscle_weakness", "loss_of_balance", "blurred_and_distorted_vision", "fatigue", "dizziness", "nerve_pain", "bladder_discomfort"],
+    "symptom_weights": { "numbness_tingling": 5, "muscle_weakness": 5, "loss_of_balance": 4, "blurred_and_distorted_vision": 4, "fatigue": 3, "nerve_pain": 2 },
+    "suggestions": {
+      "description": "Multiple sclerosis (MS) is a potentially disabling disease of the brain and spinal cord (central nervous system). In MS, the immune system attacks the protective sheath (myelin) that covers nerve fibers and causes communication problems between your brain and the rest of your body.",
+      "remedies": ["This is a complex condition managed by a neurologist. Physical therapy and exercise can help with strength and balance.", "Get plenty of rest."],
+      "whenToSeeDoctor": "If you experience unexplained symptoms like numbness, weakness, vision problems, or loss of balance.",
+      "common_otc": ["Pain relievers may help with some types of pain."],
+      "medication_guidance": "There is no cure for MS. Treatment typically focuses on speeding recovery from attacks, slowing the progression of the disease with disease-modifying therapies (DMTs), and managing symptoms.",
+      "foodToAvoid": "No specific diet has been proven to cure MS, but a low-fat, high-fiber diet is often recommended for overall health."
+    }
+  },
+  {
+    "disease": "Guillain-Barre Syndrome",
+    "symptoms": ["muscle_weakness", "numbness_tingling", "loss_of_balance", "difficulty_swallowing", "fast_heart_rate", "shortness_of_breath"],
+    "symptom_weights": { "muscle_weakness": 5, "numbness_tingling": 5, "shortness_of_breath": 4, "loss_of_balance": 3, "difficulty_swallowing": 3, "fast_heart_rate": 2 },
+    "suggestions": {
+      "description": "Guillain-Barre (gee-YAH-buz-RAY) syndrome is a rare disorder in which your body's immune system attacks your nerves. Weakness and tingling in your extremities are usually the first symptoms. These sensations can quickly spread, eventually paralyzing your whole body.",
+      "remedies": ["This is a medical emergency requiring hospitalization. There are no home remedies."],
+      "whenToSeeDoctor": "Seek emergency medical help if you have tingling in your toes or fingers that seems to be spreading or getting worse.",
+      "common_otc": ["None."],
+      "medication_guidance": "There's no cure for Guillain-Barre syndrome. But two types of treatments can speed recovery and reduce the severity of the illness: plasma exchange (plasmapheresis) and immunoglobulin therapy.",
+      "foodToAvoid": "Not applicable during the acute phase of the illness."
+    }
+  },
+  {
+    "disease": "Myasthenia Gravis",
+    "symptoms": ["muscle_weakness", "blurred_and_distorted_vision", "difficulty_swallowing", "trouble_speaking", "shortness_of_breath", "fatigue"],
+    "symptom_weights": { "muscle_weakness": 5, "difficulty_swallowing": 4, "trouble_speaking": 4, "blurred_and_distorted_vision": 3, "fatigue": 3, "shortness_of_breath": 2 },
+    "suggestions": {
+      "description": "Myasthenia gravis is characterized by weakness and rapid fatigue of any of the muscles under your voluntary control. It's caused by a breakdown in the normal communication between nerves and muscles.",
+      "remedies": ["This is a chronic condition requiring specialist management. Pacing activities and getting adequate rest is crucial."],
+      "whenToSeeDoctor": "If you experience muscle weakness that improves with rest, especially in the eye muscles, face, or throat.",
+      "common_otc": ["None."],
+      "medication_guidance": "A neurologist will manage this condition. Treatments include cholinesterase inhibitors, corticosteroids, and immunosuppressants. Surgery to remove the thymus gland may also be an option.",
+      "foodToAvoid": "No specific food restrictions."
+    }
+  },
+  {
+    "disease": "Parkinson's Disease",
+    "symptoms": ["tremor", "loss_of_balance", "muscle_stiffness", "trouble_speaking", "loss_of_smell", "constipation", "trouble_sleeping"],
+    "symptom_weights": { "tremor": 5, "muscle_stiffness": 5, "loss_of_balance": 4, "trouble_speaking": 3, "constipation": 2, "loss_of_smell": 2, "trouble_sleeping": 1 },
+    "suggestions": {
+      "description": "Parkinson's disease is a progressive nervous system disorder that affects movement. Symptoms start gradually, sometimes starting with a barely noticeable tremor in just one hand. Tremors are common, but the disorder also commonly causes stiffness or slowing of movement.",
+      "remedies": ["Medical management is essential. Regular aerobic exercise and physical therapy can significantly improve mobility and balance."],
+      "whenToSeeDoctor": "If you have any of the primary symptoms of Parkinson's — tremor, slowed movement, rigid muscles, or impaired posture and balance.",
+      "common_otc": ["None."],
+      "medication_guidance": "A neurologist will prescribe medications, most commonly Levodopa, to help manage problems with walking, movement and tremor. Other medications and deep brain stimulation are also treatment options.",
+      "foodToAvoid": "Some people find that high-protein meals can interfere with the absorption of Levodopa."
+    }
+  },
+  {
+    "disease": "Bell's Palsy",
+    "symptoms": ["muscle_weakness", "facial_drooping", "headache", "pain_behind_the_eyes", "loss_of_taste", "sensitivity_to_sound", "watering_from_eyes", "dry_mouth"],
+    "symptom_weights": { "muscle_weakness": 5, "facial_drooping": 5, "pain_behind_the_eyes": 3, "loss_of_taste": 3, "sensitivity_to_sound": 2, "watering_from_eyes": 1 },
+    "suggestions": {
+      "description": "Bell's palsy is a condition that causes a temporary weakness or paralysis of the muscles in one side of the face. It's the most common cause of facial paralysis. It is thought to occur when the nerve that controls the facial muscles becomes inflamed, swollen or compressed.",
+      "remedies": ["Protect the affected eye with lubricating eye drops and an eye patch, especially at night.", "Gently massage the facial muscles."],
+      "whenToSeeDoctor": "Seek immediate medical help if you experience any type of facial paralysis to rule out a more serious cause, such as a stroke.",
+      "common_otc": ["Lubricating eye drops (artificial tears)."],
+      "medication_guidance": "A doctor may prescribe a short course of oral corticosteroids (like prednisolone) to reduce inflammation of the facial nerve, which is most effective if started within 72 hours of symptom onset.",
+      "foodToAvoid": "No specific restrictions."
+    }
+  },
+  {
+    "disease": "Raynaud's Phenomenon",
+    "symptoms": ["numbness_tingling", "skin_discoloration", "cold_sensation", "burning_sensation", "throbbing_pain"],
+    "symptom_weights": { "skin_discoloration": 5, "cold_sensation": 5, "numbness_tingling": 4, "throbbing_pain": 3, "burning_sensation": 2 },
+    "suggestions": {
+      "description": "Raynaud's (ray-NOSE) phenomenon is a condition where smaller arteries that supply blood to your skin narrow, limiting blood circulation to affected areas (vasospasm). This causes some areas of your body — such as your fingers and toes — to feel numb and cold in response to cold temperatures or stress.",
+      "remedies": ["Dress in layers and wear warm gloves and socks in the cold.", "Avoid caffeine and smoking, which can constrict blood vessels.", "Warm the affected areas gently with warm water."],
+      "whenToSeeDoctor": "If you have a history of Raynaud's and develop a sore or infection in one of your affected fingers or toes.",
+      "common_otc": ["None."],
+      "medication_guidance": "For severe cases, a doctor may prescribe blood pressure medications (calcium channel blockers) that help dilate blood vessels.",
+      "foodToAvoid": "Caffeine and nicotine should be avoided."
+    }
+  },
+  {
+    "disease": "Acute Cholecystitis",
+    "symptoms": ["abdominal_pain", "high_fever", "nausea", "vomiting", "sweating", "loss_of_appetite", "yellowish_skin"],
+    "symptom_weights": { "abdominal_pain": 5, "high_fever": 5, "nausea": 4, "vomiting": 4, "yellowish_skin": 3, "sweating": 2, "loss_of_appetite": 1 },
+    "suggestions": {
+      "description": "Cholecystitis is inflammation of the gallbladder. It typically occurs when a gallstone blocks the cystic duct. This causes a buildup of bile that can cause inflammation. It is often a painful condition that can lead to serious complications.",
+      "remedies": ["This is a medical emergency that often requires hospitalization. Do not attempt to treat at home."],
+      "whenToSeeDoctor": "Go to an emergency room if you have severe, constant upper abdominal pain, especially if accompanied by fever, nausea, and vomiting.",
+      "common_otc": ["None."],
+      "medication_guidance": "Treatment involves a hospital stay, fasting to rest the gallbladder, IV fluids, and antibiotics. Surgery to remove the gallbladder (cholecystectomy) is almost always recommended, often during the same hospital stay.",
+      "foodToAvoid": "You will be advised not to eat or drink to rest the gallbladder."
+    }
+  },
+  {
+    "disease": "Systemic Sclerosis",
+    "symptoms": ["thickened_skin", "fatigue", "joint_pain", "shortness_of_breath", "difficulty_swallowing", "heartburn", "swelling", "skin_rash"],
+    "symptom_weights": { "thickened_skin": 5, "shortness_of_breath": 4, "difficulty_swallowing": 4, "joint_pain": 3, "fatigue": 2, "swelling": 2 },
+    "suggestions": {
+      "description": "Systemic sclerosis, or scleroderma, is a chronic connective tissue disease generally classified as one of the autoimmune rheumatic diseases. It is characterized by fibrosis (or hardening), vascular alterations, and autoantibodies.",
+      "remedies": ["Requires specialist care from a rheumatologist. Skin moisturizers and stretching are important.", "Protect hands and feet from the cold."],
+      "whenToSeeDoctor": "If you notice hardening of the skin, along with other symptoms like joint pain or difficulty swallowing.",
+      "common_otc": ["Antacids can help with heartburn symptoms."],
+      "medication_guidance": "There is no cure, but treatments can manage symptoms and prevent complications. This may include blood pressure medications, immune suppressants, and drugs to help with breathing and digestion.",
+      "foodToAvoid": "For those with heartburn, avoiding trigger foods like spicy items, caffeine, and large meals is recommended."
+    }
+  },
+  {
+    "disease": "Polymyalgia Rheumatica",
+    "symptoms": ["muscle_pain", "muscle_stiffness", "fatigue", "loss_of_appetite", "unexplained_weight_loss", "high_fever", "depression"],
+    "symptom_weights": { "muscle_pain": 5, "muscle_stiffness": 5, "fatigue": 4, "loss_of_appetite": 2, "unexplained_weight_loss": 2, "high_fever": 1 },
+    "suggestions": {
+      "description": "Polymyalgia rheumatica is an inflammatory disorder that causes muscle pain and stiffness, especially in the shoulders and hips. Signs and symptoms of polymyalgia rheumatica usually begin quickly and are worse in the morning.",
+      "remedies": ["This condition is managed with medication. Gentle exercise and physical therapy can help maintain joint flexibility and function."],
+      "whenToSeeDoctor": "If you develop aches and stiffness on both sides of your body that appear quickly.",
+      "common_otc": ["Unlikely to be effective. This condition responds best to prescription medication."],
+      "medication_guidance": "A low dose of an oral corticosteroid, such as prednisone, is the standard treatment. Symptoms usually respond quickly and dramatically to this treatment.",
+      "foodToAvoid": "No specific food restrictions."
+    }
+  },
+  [
+  {
+    "disease": "Osteoarthritis",
+    "symptoms": ["joint_pain", "muscle_stiffness", "swelling", "loss_of_balance"],
+    "symptom_weights": { "joint_pain": 5, "muscle_stiffness": 5, "swelling": 3, "loss_of_balance": 2 },
+    "suggestions": {
+      "description": "Osteoarthritis is the most common form of arthritis, often called 'wear-and-tear' arthritis. It occurs when the protective cartilage that cushions the ends of your bones wears down over time, most commonly affecting joints in your hands, knees, hips and spine.",
+      "remedies": ["Staying physically active and maintaining a healthy weight are key.", "Low-impact exercises like swimming, walking, and cycling can reduce pain and improve mobility.", "Apply hot or cold packs to ease pain and swelling."],
+      "whenToSeeDoctor": "If you have joint pain or stiffness that doesn't go away. A doctor can diagnose osteoarthritis and recommend a comprehensive treatment plan.",
+      "common_otc": ["Pain relievers like acetaminophen, or NSAIDs like ibuprofen and naproxen.", "Topical creams containing capsaicin or menthol."],
+      "medication_guidance": "A doctor may recommend stronger prescription NSAIDs, or injections of corticosteroids or hyaluronic acid directly into the joint for pain relief.",
+      "foodToAvoid": "No specific diet cures osteoarthritis, but an anti-inflammatory diet rich in fruits, vegetables, and omega-3 fatty acids may help manage symptoms."
+    }
+  },
+  {
+    "disease": "Atrial Fibrillation (A-Fib)",
+    "symptoms": ["fast_heart_rate", "fatigue", "dizziness", "shortness_of_breath", "chest_pain"],
+    "symptom_weights": { "fast_heart_rate": 5, "shortness_of_breath": 4, "dizziness": 3, "fatigue": 3, "chest_pain": 2 },
+    "suggestions": {
+      "description": "Atrial fibrillation (A-Fib) is an irregular and often very rapid heart rhythm (arrhythmia) that can lead to blood clots in the heart. A-Fib increases the risk of stroke, heart failure and other heart-related complications.",
+      "remedies": ["This condition requires medical management to control the heart rate and prevent blood clots.", "Lifestyle changes like maintaining a heart-healthy diet, regular exercise, and managing stress are important."],
+      "whenToSeeDoctor": "If you experience a fluttering or racing heartbeat, shortness of breath, or dizziness. A-Fib needs to be properly diagnosed and managed by a doctor.",
+      "common_otc": ["None. This condition must be managed with prescription medication."],
+      "medication_guidance": "A cardiologist will prescribe medications to control heart rate (beta blockers, calcium channel blockers) and blood thinners (anticoagulants) to prevent strokes.",
+      "foodToAvoid": "Limit caffeine and alcohol, as they can be triggers. If on blood thinners like warfarin, you may need to monitor your vitamin K intake (found in leafy greens)."
+    }
+  },
+  {
+    "disease": "Hemorrhoids",
+    "symptoms": ["blood_in_stool", "itching", "pelvic_pain", "swelling"],
+    "symptom_weights": { "blood_in_stool": 4, "itching": 4, "pelvic_pain": 3, "swelling": 2 },
+    "suggestions": {
+      "description": "Hemorrhoids are swollen veins in your anus and lower rectum. They are very common and can be caused by straining during bowel movements, obesity, or pregnancy. Symptoms often include painless bleeding, itching, or pain.",
+      "remedies": ["Eat high-fiber foods (fruits, vegetables, whole grains) and drink plenty of water to soften stools.", "Don't strain during bowel movements.", "Soak in a warm bath (sitz bath) for 10 to 15 minutes a few times a day."],
+      "whenToSeeDoctor": "If you have bleeding during bowel movements or if your hemorrhoids don't improve with home care, to rule out more serious conditions.",
+      "common_otc": ["Over-the-counter creams, ointments, or suppositories containing hydrocortisone or witch hazel.", "Stool softeners."],
+      "medication_guidance": "Use OTC creams for a limited time as directed on the package unless advised otherwise by a doctor.",
+      "foodToAvoid": "Low-fiber foods like cheese, chips, and processed foods, which can lead to constipation."
+    }
+},
+  {
+    "disease": "Hernia",
+    "symptoms": ["swelling", "abdominal_pain", "burning_sensation", "chest_pain", "heartburn"],
+    "symptom_weights": { "swelling": 5, "abdominal_pain": 4, "burning_sensation": 3, "chest_pain": 2, "heartburn": 2 },
+    "suggestions": {
+      "description": "A hernia occurs when an organ pushes through an opening in the muscle or tissue that holds it in place. The most common type is an inguinal hernia in the groin. They can be caused by muscle weakness and straining.",
+      "remedies": ["Home remedies are not effective for fixing a hernia, but avoiding heavy lifting and straining can prevent it from worsening.", "For hiatal hernias, eating smaller meals and not lying down after eating can help with heartburn."],
+      "whenToSeeDoctor": "If you have a painful or noticeable bulge in your groin or abdomen. Seek emergency care if a hernia bulge becomes red, purple, or dark, or if you have severe pain, nausea, and vomiting.",
+      "common_otc": ["Antacids can manage heartburn for a hiatal hernia, but do not treat the hernia itself."],
+      "medication_guidance": "The definitive treatment for most hernias is surgical repair. A doctor will determine if and when surgery is necessary.",
+      "foodToAvoid": "For hiatal hernias, avoid foods that trigger heartburn, such as spicy or fatty foods."
+    }
+  },
+  {
+    "disease": "Transient Ischemic Attack (TIA)",
+    "symptoms": ["muscle_weakness", "numbness_tingling", "trouble_speaking", "blurred_and_distorted_vision", "loss_of_balance", "dizziness"],
+    "symptom_weights": { "muscle_weakness": 5, "trouble_speaking": 5, "numbness_tingling": 4, "loss_of_balance": 3, "blurred_and_distorted_vision": 3, "dizziness": 2 },
+    "suggestions": {
+      "description": "A transient ischemic attack (TIA) is a temporary blockage of blood flow to the brain. It's often called a 'ministroke' and typically lasts only a few minutes without causing permanent damage. However, a TIA is a major warning sign of a future stroke.",
+      "remedies": ["A TIA is a medical emergency. There are no home remedies. Immediate medical evaluation is required."],
+      "whenToSeeDoctor": "**Call emergency services immediately.** Because the symptoms are the same as a stroke, you should assume you are having a stroke and not wait for symptoms to improve.",
+      "common_otc": ["None."],
+      "medication_guidance": "A doctor will work to identify the cause and may prescribe anti-platelet drugs (like aspirin) or blood thinners to prevent a full stroke. Lifestyle changes are critical.",
+      "foodToAvoid": "A heart-healthy diet low in sodium, saturated fat, and trans fat is crucial for stroke prevention."
+    }
+  },
+  {
+    "disease": "Vitamin B12 Deficiency",
+    "symptoms": ["fatigue", "numbness_tingling", "pallor", "dizziness", "shortness_of_breath", "loss_of_balance", "depression", "confusion"],
+    "symptom_weights": { "fatigue": 5, "numbness_tingling": 5, "pallor": 4, "dizziness": 3, "loss_of_balance": 3, "confusion": 2, "depression": 1 },
+    "suggestions": {
+      "description": "A long-term lack of vitamin B12 can lead to anemia and nervous system damage. It can be caused by a diet lacking in B12 (common in vegans) or by the body's inability to absorb it properly.",
+      "remedies": ["If due to diet, increasing intake of B12-rich foods (meat, fish, eggs, dairy) or fortified foods (cereals, plant-based milks) is necessary."],
+      "whenToSeeDoctor": "If you have persistent fatigue, tingling sensations, or memory problems. A simple blood test can diagnose the deficiency.",
+      "common_otc": ["Over-the-counter vitamin B12 supplements (pills or sublingual tablets)."],
+      "medication_guidance": "For absorption problems, a doctor will prescribe high-dose oral supplements or B12 injections. This is often a lifelong treatment.",
+      "foodToAvoid": "No specific restrictions, but a balanced diet is important."
+    }
+  },
+  {
+    "disease": "Hives (Urticaria)",
+    "symptoms": ["skin_rash", "itching", "swelling"],
+    "symptom_weights": { "skin_rash": 5, "itching": 5, "swelling": 3 },
+    "suggestions": {
+      "description": "Hives, also known as urticaria, are red, itchy welts that result from a skin reaction. The welts vary in size and appear and fade repeatedly as the reaction runs its course. They can be triggered by allergens, stress, or other factors.",
+      "remedies": ["Apply cool compresses to the affected area.", "Take a cool bath with oatmeal or baking soda.", "Wear loose, smooth-textured clothing."],
+      "whenToSeeDoctor": "If the hives are severe, last for more than a few days, or if you have swelling of the lips, tongue, or throat (which is a medical emergency).",
+      "common_otc": ["Non-drowsy antihistamines like Cetirizine or Loratadine are the primary treatment."],
+      "medication_guidance": "Take antihistamines as directed on the package. If symptoms persist, a doctor may prescribe stronger medication or corticosteroids.",
+      "foodToAvoid": "If you suspect a food allergy is the cause, keep a food diary to identify and avoid the trigger."
+    }
+  }
+]
+]
