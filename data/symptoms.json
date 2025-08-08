@@ -50,8 +50,7 @@
             { "key": "lack_of_concentration", "label": "Lack of Concentration" },
             { "key": "blurred_and_distorted_vision", "label": "Blurred and Distorted Vision" },
             { "key": "sensitivity_to_sound", "label": "Sensitivity to Sound" },
-            { "key": "nerve_pain", "label": "Nerve Pain" },
-            { "key": "depression", "label": "Depression" },
+            { "key": "nerve_pain", "label": "Nerve Pain" } ,
             { "key": "morning_headache", "label": "Morning Headache" },
             { "key": "irritability", "label": "Irritability" }
         ]
@@ -144,4 +143,5 @@
             { "key": "dark_urine", "label": "Dark Urine" }
         ]
     }
+
 ]
